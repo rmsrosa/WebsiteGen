@@ -1,10 +1,10 @@
 # Website generation
 
-This repository is for generate my personal website, containing both work and non-work related stuff.
+This repository is for generating my personal website, containing both work and non-work related stuff.
 
 It uses [Franklin.jl](https://github.com/tlienart/Franklin.jl), in the [Julia language](https://julialang.org).
 
-The style was based on the [basic Franklin template](https://tlienart.github.io/FranklinTemplates.jl/templates/basic/index.html) of the many [Franklin templages available](https://tlienart.github.io/FranklinTemplates.jl/), but I adapted it to my taste.
+The css (cascading style sheet) was based on the ["basic" Franklin template](https://tlienart.github.io/FranklinTemplates.jl/templates/basic/index.html), one of the many [Franklin templages available](https://tlienart.github.io/FranklinTemplates.jl/), but which I adapted to my taste.
 
 The basic template was initiated with
 
@@ -14,7 +14,9 @@ using Franklin
 newsite("website"; template="basic")
 ```
 
-Then, I modified the original `css` files and add the desired contents.
+Then, I modified the original `css` files and added the desired contents.
+
+## Notes to myself
 
 For a live local preview of the page, serve it from the `website/` folder with
 
