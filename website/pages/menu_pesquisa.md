@@ -6,8 +6,8 @@
 
 ## Navier-Stokes equations and turbulence
 
-![Vorticity Level sets.](/pages/img/movie01xx.mp4)
-> Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow.
+![Vorticity Level sets.](/pages/img/movie00xx.gif)
+> Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow. ([Click here for an extended simulation)](/pages/img/movie01xx.mp4))
 
 Turbulence is a fascinating phenomenom. It occurs in many types of fluids under various conditions. From the most visible ones, as in the formation of currents in rivers, to more hidden ones, as the flow of blood and other fluids in our bodies, of oil and gas in pipelines and wellbores, and of magma in the Earth's mantle and in magma chambers.
 
