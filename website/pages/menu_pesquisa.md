@@ -6,6 +6,8 @@
 
 ## Navier-Stokes equations and turbulence
 
+![Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow.](/pages/img/movie01xx.mp4)
+
 Turbulence is a fascinating phenomenom. It occurs in many types of fluids under various conditions. From the most visible ones, as in the formation of currents in rivers, to more hidden ones, as the flow of blood and other fluids in our bodies, of oil and gas in pipelines and wellbores, and of magma in the Earth's mantle and in magma chambers.
 
 Despite the fact that there are well-accepted mathematical models to describe the motion of the associated fluid flows, explicit solutions to the modeling systems of equations exist only in very particular cases, so that alternative routes are needed.
@@ -24,6 +26,8 @@ numerically investigating the results associated with the previous two items.
 
 ## Abstract statistical solutions
 
+![Representation of a push-forward of an initial measure by a semigroup (top); a phase-space statistical solution (middle); and a trajectory statistical solution (bottom).](/pages/img/StatisticalSolution.jpg)
+
 This work stemmed from the study of statistical solutions of the Navier-Stokes. It aims towards a generalization of this notion to various types of evolution equations.
 
 An abstract framework is formulated in which the phase-space of the evolutionary system is assumed to be a Hausdorff topological space, and the evolution equation is considered in a weak sense, in the dual of a topological vector space.
@@ -36,6 +40,8 @@ The main results obtained so far in this context are
 There are challenging functional-analytic and measure-theoretic problems involved in this line of research due to the high degree of abstraction and the need to be as applicable as possible.
 
 ## Infinite-dimensional dynamical systems
+
+![A Dynamic Sugar Loaf made of a heteroclinic cycle, a repeller focus as the Sun, and water waves completing the picture of a famous landmark in Rio de Janeiro.](/pages/img/pao_de_acucar_dinamico.gif)
 
 Several real-life phenomena and advanced technological problems are modeled with systems involving evolutionary partial differential equations. Such systems appear in a multitude of areas, such as Physics, Engineering, Biology, Chemistry, Biochemistry, Finance, and so on.
 
@@ -59,6 +65,8 @@ Important questions in this field include
 
 ## Modeling the salt and pre-salt layers for pre-salt oil exploitation
 
+![The salt layer, in yellow at the bottom, and modeled as a visco-elastic fluid, being deformed by the load of elastic sedimentary layers and forming the typical diapir, a mushroom type geological structure.](/pages/img/potencial_ms_cropped.mp4)
+
 Pre-salt oil became a fundamental asset for Brazil, but its exploitation is an extraordinary task.
 
 The oil prospected before the pre-salt era lies in sedimentary layers at the bottom of the ocean or below ground. The pre-salt oil, on the other hand, lies within a carbonaceous layer, just below a thick 2km salt layer, which is below the sedimentary layers, and at the bottom of the ocean. The difficulties for prospection are enormous.
@@ -81,6 +89,8 @@ This is a joint project with CENPES/PETROBRÁS. We are now renewing this project
 These diverse studies involve analysis of partial differential equations, dynamical systems, optimization methods, numerical analysis, and computer simulations.
 
 ## Mathematics in the brewing process
+
+![Hop flowers and a plot of an experimental data of the humulone to iso-humulone conversion and a fitting by a saturation model.](/pages/img/hop_image_and_utilization.png)
 
 There is a multitude of physical, chemical, and biological processes ocurring during the brewing and storage stages of beer manufacture.
 
