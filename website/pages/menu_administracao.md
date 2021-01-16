@@ -1,6 +1,6 @@
-@def title = "Administração"
-
 # Funções Administrativas
+
+@def title = "Administração"
 
 ## Atuais
 
