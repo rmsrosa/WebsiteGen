@@ -6,7 +6,8 @@
 
 ## Navier-Stokes equations and turbulence
 
-![Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow.](/pages/img/movie01xx.mp4)
+![Vorticity Level sets.](/pages/img/movie01xx.mp4)
+> Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow.
 
 Turbulence is a fascinating phenomenom. It occurs in many types of fluids under various conditions. From the most visible ones, as in the formation of currents in rivers, to more hidden ones, as the flow of blood and other fluids in our bodies, of oil and gas in pipelines and wellbores, and of magma in the Earth's mantle and in magma chambers.
 
@@ -26,7 +27,8 @@ numerically investigating the results associated with the previous two items.
 
 ## Abstract statistical solutions
 
-![Representation of a push-forward of an initial measure by a semigroup (top); a phase-space statistical solution (middle); and a trajectory statistical solution (bottom).](/pages/img/StatisticalSolution.jpg)
+![Phase-space and trajectory statistical solutions.](/pages/img/StatisticalSolution.jpg)
+> Representation of a push-forward of an initial measure by a semigroup (top); a phase-space statistical solution (middle); and a trajectory statistical solution (bottom).
 
 This work stemmed from the study of statistical solutions of the Navier-Stokes. It aims towards a generalization of this notion to various types of evolution equations.
 
@@ -41,7 +43,8 @@ There are challenging functional-analytic and measure-theoretic problems involve
 
 ## Infinite-dimensional dynamical systems
 
-![A Dynamic Sugar Loaf made of a heteroclinic cycle, a repeller focus as the Sun, and water waves completing the picture of a famous landmark in Rio de Janeiro.](/pages/img/pao_de_acucar_dinamico.gif)
+![Dynamic Sugar Loaf](/pages/img/pao_de_acucar_dinamico.gif)
+> The "Dynamic Sugar Loaf", made of a heteroclinic cycle, a repeller focus as the Sun, and water waves completing the picture of a famous landmark in Rio de Janeiro.
 
 Several real-life phenomena and advanced technological problems are modeled with systems involving evolutionary partial differential equations. Such systems appear in a multitude of areas, such as Physics, Engineering, Biology, Chemistry, Biochemistry, Finance, and so on.
 
@@ -65,7 +68,11 @@ Important questions in this field include
 
 ## Modeling the salt and pre-salt layers for pre-salt oil exploitation
 
-![The salt layer, in yellow at the bottom, and modeled as a visco-elastic fluid, being deformed by the load of elastic sedimentary layers and forming the typical diapir, a mushroom type geological structure.](/pages/img/potencial_ms_cropped.mp4)
+![Deep water prospection](/pages/img/BrazilDeepwater.jpg)
+> Deep water prospection aspects
+
+![Time-evolution of sediment and salt layers](/pages/img/potencial_ms_cropped.mp4)
+> The salt layer, below, in yellow, modeled as a visco-elastic fluid, and being deformed into a "mushroom"-like diapir (a geological intrusion), under the load of different layers of elastic sedimentary rocks.
 
 Pre-salt oil became a fundamental asset for Brazil, but its exploitation is an extraordinary task.
 
@@ -90,7 +97,8 @@ These diverse studies involve analysis of partial differential equations, dynami
 
 ## Mathematics in the brewing process
 
-![Hop flowers and a plot of an experimental data of the humulone to iso-humulone conversion and a fitting by a saturation model.](/pages/img/hop_image_and_utilization.png)
+![Hop flowers and humulone conversion to iso-humulone](/pages/img/hop_image_and_utilization.png)
+> Hop flowers and a plot of an experimental data of the humulone to iso-humulone conversion and a fitting by a saturation model.
 
 There is a multitude of physical, chemical, and biological processes ocurring during the brewing and storage stages of beer manufacture.
 
