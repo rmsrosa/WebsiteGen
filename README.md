@@ -25,3 +25,19 @@ serve()
 ```
 
 This generates the static website and opens up the default browser with the locally generated site. Any change made in the source files are automatically reflected in the generated site.
+
+## Videos and animated gifs
+
+Followed [StackExchange: How do I convert a video to GIF using ffmpeg, with reasonable quality?](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
+
+The periodic NSE simulation animation was reformatted with
+
+```zsh
+ffmpeg -ss 0 -t 9 -i movie01xx.mp4 -vf "fps=10,scale=448:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 0 nsepersim.gif
+```
+
+The salt-layer evolution movie was reformatted with
+
+```zhs
+ffmpeg -ss 0 -i potencial_ms_cropped.mp4 -vf "fps=15,scale=512:-1:flags=lanczos,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse" -loop 1 potencial_ms_cropped.gif
+```

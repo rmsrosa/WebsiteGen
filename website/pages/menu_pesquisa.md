@@ -6,7 +6,7 @@
 
 ## Navier-Stokes equations and turbulence
 
-![Vorticity Level sets.](/pages/img/movie00xx.gif)
+![Vorticity Level sets.](/pages/img/nsepersim.gif)
 > Level sets of vorticity in a periodic, two-mode-forced incompressible 2D Navier-Stokes pseudo-spectrally simulated flow. ([Click here for an extended simulation)](/pages/img/movie01xx.mp4))
 
 Turbulence is a fascinating phenomenom. It occurs in many types of fluids under various conditions. From the most visible ones, as in the formation of currents in rivers, to more hidden ones, as the flow of blood and other fluids in our bodies, of oil and gas in pipelines and wellbores, and of magma in the Earth's mantle and in magma chambers.
@@ -71,8 +71,8 @@ Important questions in this field include
 ![Deep water prospection](/pages/img/BrazilDeepwater.jpg)
 > Deep water prospection aspects
 
-![Time-evolution of sediment and salt layers](/pages/img/potencial_ms_cropped.mp4)
-> The salt layer, below, in yellow, modeled as a visco-elastic fluid, and being deformed into a "mushroom"-like diapir (a geological intrusion), under the load of different layers of elastic sedimentary rocks.
+![Time-evolution of sediment and salt layers](/pages/img/potencial_ms_cropped.gif)
+> The salt layer, below, in yellow, modeled as a visco-elastic fluid, and being deformed into "mushroom"-like diapirs (geological intrusion), under the load of different layers of elastic sedimentary rocks.
 
 Pre-salt oil became a fundamental asset for Brazil, but its exploitation is an extraordinary task.
 
