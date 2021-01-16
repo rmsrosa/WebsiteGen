@@ -1,0 +1,18 @@
+Para dia 22/nov
+
+Lista 3 de Análise Funcional
+
+Exercícios do Brezis:
+
+Capítulo 1, exercício 1.8, item 2.
+
+Capítulo 1, exercício 1.9 (todos os itens, de 1 a 4)
+
+
+Exercícios do Conway:
+
+Capítulo IV Locally Convex Spaces, Seção 1: 
+
+Exercícios 3, 11*, 12, 17, 18, 22 e 23.
+
+*No exercício 11, leia-se \alpha A + \beta A = (\alpha+\beta)A

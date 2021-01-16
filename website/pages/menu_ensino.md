@@ -12,11 +12,11 @@
 
   * **PRIMEIRA SEMANA DE AULA:** Nesta primeira semana, teremos o nosso encontro pelo Google Meet nesta TERÇA-FEIRA, dia 1/dez, às 10h, pelo link com código woz-tixd-waf.
   * **Local:** Google Classroom, Google Meet e YouTube
-  * **Acesso:** Todos os alunos devem preencher o Formulário inicial de ED 2020/1 para ter acesso à turma da disciplina no Google Classroom e para ser convidado para os encontros síncronos.
+  * **Acesso:** Todos os alunos devem preencher o [Formulário inicial de ED 2020/1](https://docs.google.com/forms/d/e/1FAIpQLSdFsD0K2aSPrrGPwQXFGtN3QcKfEvOEnBw8HcBnYUd3QM1l0w/viewform) para ter acesso à turma da disciplina no Google Classroom e para ser convidado para os encontros síncronos.
   * **Carga assíncrona:** Vídeo-aulas disponibilizadas semanalmente em canal do YouTube, acessíveis através de links no Google Classroom, assim como a leitura das notas de aula
   * **Carga síncrona:** Uma vez por semana, de 10h às 12h, via Google Meet, com link disponiblizado pelo Google Classroom ou enviado por convite, com o principal intuito de esclarecer dúvidas surgidas a partir do texto e dos vídeos discutidos na semana. O nosso primeiro encontro síncrono será na terça-feira, dia 1/dez/2020, pelo Google Meet. O link para o primeiro encontro será enviado por convite e disponibilizado aqui poucos minutos antes da aula.
 
-* **Notas de aula:** Equações Diferenciais versão 2017/1
+* **Notas de aula:** [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
 
 * **Avaliação:** Atividades semanais pelo Google Classroom.
 
@@ -33,7 +33,7 @@
   * **Carga assíncrona:** Vídeo-aulas disponibilizadas semanalmente em canal do YouTube, acessíveis através de links no Google Classroom, assim como a leitura das notas de aula
   * **Carga síncrona:** Uma vez por semana, de 10h às 12h, via Google Meet, com link disponiblizado pelo Google Classroom, com o principal intuito de esclarecer dúvidas surgidas a partir do texto e dos vídeos discutidos na semana
 
-* **Notas de aula:** Equações Diferenciais versão 2017/1
+* **Notas de aula:** [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
 
 * **Avaliação:** Atividades semanais pelo Google Classroom.
 
@@ -51,7 +51,7 @@
 * **Informações:**
   * **Sala de aula:** F_2 026 (CCMN)
   * **Dias das aulas:** Segundas e quartas, das 10h às 12h
-  * **Turma de curso unificado:** Mais informações sobre o curso na página Cálculo II Unificado
+  * **Turma de curso unificado:** Mais informações sobre o curso na [página Cálculo II Unificado](http://www.im.ufrj.br/calculo2)
   * **Meu gabinete:** C-113B (CT)
 
 * **Programação:**
@@ -59,213 +59,152 @@
 
 ### 2019/2: Cálculo Integral e Diferencial III - Ciência da Computação (Unificado)
 
-Informações:
-Sala de aula: F_2 026 (CCMN)
-Dias das aulas: Segundas e sextas, das 13h às 15h
-Turma de curso unificado: Mais informações sobre o curso na página Cálculo III Unificado
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 5 de agosto de 2018
+* Informações:
+  * Sala de aula: F_2 026 (CCMN)
+  * Dias das aulas: Segundas e sextas, das 13h às 15h
+  * Turma de curso unificado: Mais informações sobre o curso na [página Cálculo III Unificado](http://www.im.ufrj.br/calculo3)
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 5 de agosto de 2018
 
 ### 2019/1: Modelagem Matemática (Matemática Aplicada)
 
-Informações:
-Aulas: Terças e quintas de 13h às 15h
-Salas de aula: LIG ABC-119 (CT) às terças e A204 (CT) às quintas
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 11 de março de 2019
-Material:
-Repositório de Modelagem Matemática no Github de Ricardo Rosa
-Repositório de Modelagem Matemática no Github de Alejandro Cabrera
+* Informações:
+  * Aulas: Terças e quintas de 13h às 15h
+  * Salas de aula: LIG ABC-119 (CT) às terças e A204 (CT) às quintas
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 11 de março de 2019
+* Material:
+  * [Repositório de Modelagem Matemática no Github de Ricardo Rosa](http://www.github.com/rmsrosa/modelagem_matematica)
+  * [Repositório de Modelagem Matemática no Github de Alejandro Cabrera](http://www.github.com/acabreraufrj/modelagem)
 
 ### 2019/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
-Informações:
-Sala de aula: B-110 (CT)
-Aulas: Terças e quintas de 15h às 17h
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 11 de março de 2019
-Primeira Prova: 9 de maio de 2019 (quinta-feira)
-Segunda Prova: 25 de junho de 2019 (terça-feira)
-Prova Final: 4 de julho de 2019 (quinta-feira)
-Material:
-Equações Diferenciais versão 2017/1 (notas de aula)
+* Informações:
+  * Sala de aula: B-110 (CT)
+  * Aulas: Terças e quintas de 15h às 17h
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 11 de março de 2019
+  * Primeira Prova: 9 de maio de 2019 (quinta-feira)
+  * Segunda Prova: 25 de junho de 2019 (terça-feira)
+  * Prova Final: 4 de julho de 2019 (quinta-feira)
+* Material:
+  * [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
 
 ### 2018/2: Cálculo Integral e Diferencial II - Ciência da Computação (Unificado)
 
-Informações:
-Sala de aula: F_2 010 (CCMN)
-Dias das aulas: Segundas e quartas, das 10h às 12h
-Turma de curso unificado: Mais informações sobre o curso na página Cálculo II
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 6 de agosto de 2018
+* Informações:
+  * Sala de aula: F_2 010 (CCMN)
+  * Dias das aulas: Segundas e quartas, das 10h às 12h
+  * Turma de curso unificado: Mais informações sobre o curso na [página Cálculo II Unificado](http://www.im.ufrj.br/calculo2)
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 6 de agosto de 2018
 
 ### 2018/1: Cálculo Integral e Diferencial II - Ciência da Computação (Unificado)
 
-Informações:
-Sala de aula: F_2 010 (CCMN)
-Dias das aulas: Segundas e quartas, das 10h às 12h
-Turma de curso unificado: Mais informações sobre o curso na página Cálculo II
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 12 de março de 2018
+* Informações:
+  * Sala de aula: F_2 010 (CCMN)
+  * Dias das aulas: Segundas e quartas, das 10h às 12h
+  * Turma de curso unificado: Mais informações sobre o curso [página Cálculo II Unificado](http://www.im.ufrj.br/calculo2)
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 12 de março de 2018
 
 ### 2018/1: Álgebra Linear II - Matemática (Unificado)
 
-Informações:
-Sala de aula: F_2 010 (CCMN)
-Dias das aulas: Terças e quintas, das 10h às 12h
-Turma de curso unificado: Mais informações sobre o curso na página Álgebra Linear II Unificada
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 13 de março de 2018
+* Informações:
+  * Sala de aula: F_2 010 (CCMN)
+  * Dias das aulas: Terças e quintas, das 10h às 12h
+  * Turma de curso unificado: Mais informações sobre o curso na [página Álgebra Linear II Unificada](https://sites.google.com/matematica.ufrj.br/alglin2unif/in%C3%ADcio)
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 13 de março de 2018
 
 ### 2017/2: Cálculo Integral e Diferencial II - Ciência da Computação (Unificado)
 
-Informações:
-Sala de aula: F_2 014 (CCMN)
-Dias das aulas: Segundas e quartas, das 10h às 12h
-Turma de curso unificado: Mais informações sobre o curso na página Cálculo II
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 31 de julho de 2017
+* Informações:
+  * Sala de aula: F_2 014 (CCMN)
+  * Dias das aulas: Segundas e quartas, das 10h às 12h
+  * Turma de curso unificado: Mais informações sobre o curso na [página Cálculo II Unificado](http://www.im.ufrj.br/calculo2)
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 31 de julho de 2017
 
 ### 2017/2: Cálculo Infinitesimal II (Matemática Aplicada e Programa Especial da Engenharia)
 
-Informações:
-Sala de aula: F_2 010 (CCMN)
-Dias e horários das aulas: Quartas e sextas, das 13h às 15h
-Monitor: Lucas Moura, sala ABC-116
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 2 de agosto de 2017 (quarta-feira)
-Primeira Prova: 29 de setembro de 2017 (sexta-feira)
-Segunda Prova: 29 de novembro de 2017 (quarta-feira)
-Prova Final: 8 de dezembro de 2017 (sexta-feira)
-Material:
-Primeira Lista - entregar na aula do dia 25 de agosto, sexta-feira
-Segunda Lista - entregar na aula do dia 27 de agosto, quarta-feira (ou enviar pdf por email até o final do horário da aula)
-Terceira Lista - entregar na aula do dia 18 de outubro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
-Quarta Lista - entregar na aula do dia 8 de novembro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
-Quinta Lista - não precisa entregar; não será corrigida
+* Informações:
+  * Sala de aula: F_2 010 (CCMN)
+  * Dias e horários das aulas: Quartas e sextas, das 13h às 15h
+  * Monitor: Lucas Moura, sala ABC-116
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 2 de agosto de 2017 (quarta-feira)
+  * Primeira Prova: 29 de setembro de 2017 (sexta-feira)
+  * Segunda Prova: 29 de novembro de 2017 (quarta-feira)
+  * Prova Final: 8 de dezembro de 2017 (sexta-feira)
+* Material:
+  * [Primeira Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista1.pdf) - entregar na aula do dia 25 de agosto, sexta-feira
+  * [Segunda Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista2.pdf) - entregar na aula do dia 27 de agosto, quarta-feira (ou enviar pdf por email até o final do horário da aula)
+  * [Terceira Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista3.pdf) - entregar na aula do dia 18 de outubro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
+  * [Quarta Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista4.pdf) - entregar na aula do dia 8 de novembro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
+  * [Quinta Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista5.pdf) - não precisa entregar; não será corrigida
 
 ### 2017/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
-Informações:
-Sala de aula: B-110 (CT)
-Aulas: Terças e quintas de 10h às 12h
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 7 de março de 2017
-Primeira Prova: 20 de abril de 2017 (quinta-feira)
-Segunda Prova: 22 de junho de 2017 (quinta-feira)
-Prova Final: 29 de junho de 2017 (quinta-feira)
-Material:
-Equações Diferenciais versão 2017/1 (notas de aula)
+* Informações:
+  * Sala de aula: B-110 (CT)
+  * Aulas: Terças e quintas de 10h às 12h
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 7 de março de 2017
+  * Primeira Prova: 20 de abril de 2017 (quinta-feira)
+  * Segunda Prova: 22 de junho de 2017 (quinta-feira)
+  * Prova Final: 29 de junho de 2017 (quinta-feira)
+* Material:
+  * [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
 
 ### 2017/1: Cálculo Integral e Diferencial II (Ciência da Computação)
 
-Informações:
-Sala de aula: F_2 010 (CCMN)
-Aulas: segundas e quartas, de 10h às 12h
-Unificado com a Engenharia. Mais informações sobre o curso unificado na página Cálculo II
-Meu gabinete: C-113B (CT)
+* Informações:
+  * Sala de aula: F_2 010 (CCMN)
+  * Aulas: segundas e quartas, de 10h às 12h
+  * Unificado com a Engenharia. Mais informações sobre o curso unificado na [página Cálculo II Unificado](http://www.im.ufrj.br/calculo2)
+  * Meu gabinete: C-113B (CT)
 
 ### 2016/2: Cálculo Infinitesimal II (Matemática Aplicada, PEM)
 
-Informações:
-Sala de aula: F_3 014 (CCMN)
-Aulas: quartas e sextas, de 13h às 15h
-Cálculo da Média: M = (P1/3 + 2 T1/3)/2 + P2/2
-Cálculo da Média Final: MF = (M+PF)/2
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 31 de agosto de 2016
-Primeira Prova: 4 de novembro de 2016 (sexta-feira)
-Trabalho: entregar as soluções da P1 na aula do dia 11/nov/2016
-Segunda Prova: 14 de dezembro de 2016 (quarta-feira)
-Prova Final: 21 de dezembro de 2016 (quarta-feira)
-Material:
-Primeira Lista
-Segunda Lista
-Terceira Lista
-Prova 1 (Trabalho 1)
+* Informações:
+  * Sala de aula: F_3 014 (CCMN)
+  * Aulas: quartas e sextas, de 13h às 15h
+  * Cálculo da Média: M = (P1/3 + 2 T1/3)/2 + P2/2
+  * Cálculo da Média Final: MF = (M+PF)/2
+  * Meu gabinete: C-113B (CT)
+* Programação:
+  * Início das aulas: 31 de agosto de 2016
+  * Primeira Prova: 4 de novembro de 2016 (sexta-feira)
+  * Trabalho: entregar as soluções da P1 na aula do dia 11/nov/2016
+  * Segunda Prova: 14 de dezembro de 2016 (quarta-feira)
+  * Prova Final: 21 de dezembro de 2016 (quarta-feira)
+* Material:
+  * [Primeira Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Segunda Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Terceira Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Prova 1 (Trabalho 1)](/pages/material/provas-calculoinfinitesimal2-2016-2-P1.pdf)
 
 ### 2016/1: Cálculo Diferencial e Integral II (Ciência da Computação)
 
 ### 2015/2: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
-Informações:
-Início das aulas: 5 de outubro de 2015
-Sala de aula: F_2 034 (CCMN)
-Aulas: terças e quintas, de 10h às 12h
-Meu gabinete: C-113B (CT)
-Programação:
-Primeira Prova: 3 de dezembro de 2015 (quinta-feira)
-Segunda Prova: 28 de janeiro de 2016 (quinta-feira)
-Prova Final: 4 de fevereiro de 2016 (quinta-feira)
-Material:
-Equações Diferenciais versão 2009/2 (notas de aula)
-
 ### 2015/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
-
-Informações:
-Início das aulas: 17 de março de 2015
-Sala de aula: F_2 034 (CCMN)
-Aulas: terças e quintas, de 10h às 12h
-Meu gabinete: C-113B (CT)
-Programação:
-Primeira Prova: 7 de maio de 2015 (quinta-feira)
-Segunda Prova: 2 de julho de 2015 (quinta-feira)
-Prova Final: 9 de julho de 2015 (quinta-feira)
-Material:
-Equações Diferenciais versão 2009/2 (notas de aula)
 
 ### 2014/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
-Informações:
-Início das aulas: 17 de março de 2015
-Sala de aula: D-120 (CT)
-Aulas: terças e quintas, de 10h às 12h
-Meu gabinete: C-113B (CT)
-Programação:
-Primeira Prova: 27 de março de 2014 (quinta-feira)
-Segunda Prova: 29 de maio de 2014 (quinta-feira)
-Prova Final: 5 de junho de 2014 (quinta-feira)
-Material:
-Equações Diferenciais versão 2009/2 (notas de aula)
-
 ### 2013/2: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
-Informações:
-Início das aulas: 20 de agosto de 2013
-Sala de aula: D-120 (CT)
-Aulas: terças e quintas, de 10h às 12h
-Meu gabinete: C-113B (CT)
-Programação:
-Primeira Prova: 31 de outubro de 2013 (quinta-feira)
-Segunda Prova: 12 de dezembro de 2013 (quinta-feira)
-Prova Final: 19 de dezembro de 2013 (quinta-feira)
-Material:
-Equações Diferenciais versão 2009/2 (notas de aula)
-
 ### 2013/1: Cálculo Integral e Diferencial III (Ciência da Computação)
-
-Informações:
-Sala de aula: F_2 014 (CCMN)
-Dias das aulas: Segundas e sextas, de 13h às 15h
-Meu gabinete: C-113B (CT)
-Programação:
-Início das aulas: 1 de abril de 2013
-Primeira Prova: 3 de junho de 2013 (segunda-feira)
-Segunda Prova: 5 de julho de 2013 (sexta-feira)
-Prova Final: 15 de julho de 2013 (segunda-feira)
-Revisão Final: 29 de julho de 2013 (segunda-feira), de 14h às 15h, na C-113B
-Material:
-Gabarito da P2
 
 ### 2012/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
@@ -283,18 +222,15 @@ Gabarito da P2
 
 ### 2008/1: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-Material:
-Modelagem Matemática (notas de aula)
+* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
 
 ### 2007/2: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-Material:
-Modelagem Matemática (notas de aula)
+* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
 
 ### 2007/1: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-* Material:
-  * Modelagem Matemática (notas de aula)
+* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
 
 ### 2006/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
@@ -342,17 +278,22 @@ Modelagem Matemática (notas de aula)
   * Segunda Prova: 8 de novembro de 2018, de 12h00 às 15h (quinta-feira)
   * Terceira Prova: 11 de dezembro de 2018 (terça-feira)
 * Material:
-  * Lista 1 (entregar até quinta-feira, dia 6 de setembro de 2018)
-  * Lista 2 (entregar até quinta-feira, dia 2 de outubro de 2018)
-  * Lista 3 (entregar até quinta-feira, dia 9 de outubro de 2018)
-  * Lista 4 (entregar até quinta-feira, dia 25 de outubro de 2018)
-  * PDF da P1 / PDF da P1 com Respostas
-  * PDF da P2 / PDF da P2 com Respostas
+  * [Lista 1](/pages/material/lista-integracao-2018-2-lista1.pdf) (entregar até quinta-feira, dia 6 de setembro de 2018)
+  * [Lista 2](/pages/material/lista-integracao-2018-2-lista2.pdf) (entregar até quinta-feira, dia 2 de outubro de 2018)
+  * [Lista 3](/pages/material/lista-integracao-2018-2-lista3.pdf) (entregar até quinta-feira, dia 9 de outubro de 2018)
+  * [Lista 4](/pages/material/lista-integracao-2018-2-lista4.pdf) (entregar até quinta-feira, dia 25 de outubro de 2018)
+  * [PDF da P1](/pages/material/provas-integracao-2018-2_P1.pdf) / [PDF da P1 com Respostas](/pages/material/provas-integracao-2018-2_P1_ComRespostas.pdf)
+  * [PDF da P2](/pages/material/provas-integracao-2018-2_P2.pdf) / [PDF da P2 com Respostas](/pages/material/provas-integracao-2018-2_P2_ComRespostas.pdf)
+
+### 2012/2: Análise Funcional
+
+* Material:
+  * [Lista 1](/pages/material/AnaliseFuncional-Listas-RRosa-2012-2.pdf)
+  * [Lista 3](/pages/material/AnaliseFuncionalLista3.txt)
 
 ### 2008/1: Sistemas Dinâmicos
 
-* Material:
-  * Equações Diferenciais Ordinárias e Introdução aos Sistemas Dinâmicos (Notas de aula)
+* Material: [Equações Diferenciais Ordinárias e Introdução aos Sistemas Dinâmicos (Notas de aula)](/pages/material/sdnotes.pdf)
 
 ### 2006/1: Equações a Derivadas Parciais
 
@@ -363,12 +304,6 @@ Modelagem Matemática (notas de aula)
 ### 2003/2: Análise Funcional
 
 ### 2003/1: Análise Funcional
-
-### 2002/2: Análise Funcional
-
-* Material:
-  * Lista 1
-  * Lista 3
 
 ### 2002/2: Tópicos em Matemática Aplicada
 
@@ -393,14 +328,14 @@ Modelagem Matemática (notas de aula)
 * **Evento:** Primeira Escola Brasileira de Equações Diferenciais (I EBED)
 * **Local:** IMECC-Unicamp, Campinas, SP
 * **Datas:** de 9 a 13 de junho de 2003
-* **Material:** [Transparências utilizadas](/material/ebednsetwoup.pdf)
+* **Material:** [Transparências utilizadas](/pages/material/ebednsetwoup.pdf)
 
 ### fev/2003: Equações de Navier-Stokes e turbulência
 
 * **Evento:** Programa de Verão do LNCC
 * **Local:** LNCC, Petrópolis, RJ
 * **Datas:** de 24 a 27 de fevereiro de 2003
-* **Material:** [Transparências utilizadas](/material/lnccnsetwoup.pdf)
+* **Material:** [Transparências utilizadas](/pages/material/lnccnsetwoup.pdf)
 
 ### fev/2002: Equações de Navier-Stokes e turbulência
 
