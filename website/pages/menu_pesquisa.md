@@ -5,4 +5,4 @@
 
 \toc
 
-\textinput{../pages/research.md}
+\textinput{research}
