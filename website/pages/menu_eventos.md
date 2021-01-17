@@ -1,6 +1,7 @@
 # Eventos
 
 @def title = "Eventos"
+@def pt_lang = true
 
 1. [Escola de Verão do IM-UFRJ de 2007](http://www.pg.im.ufrj.br/verao/verao2007.htm) (IM-UFRJ, Rio de Janeiro, janeiro a início de março de 2007 - Coordenador)  
 

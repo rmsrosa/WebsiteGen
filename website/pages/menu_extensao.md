@@ -1,6 +1,7 @@
 # Extensão
 
 @def title = "Extensão"
+@def pt_lang = true
 
 * [![Cartaz](/pages/img/Pintcartaz_small.png)](/pages/img/Pintcartaz.png) Em 16 de maio de 2018, participei do Festival [Pint of Science Brasil](https://pintofscience.com.br/). O Festival engloba eventos de divulgação científica em bares e restaurantes em diversas cidades do Brasil. Esta é a versão nacional do [Pint of Science](https://pintofscience.com/), realizado em cidades de diversos países. O Festival ocorre anualmente, sempre no mês de maio. A minha participação foi em uma mesa redonda com o Prof. Marcelo Viana (IMPA) e teve como tema *"Dois chopes e senta que lá vem história: como a matemática está por trás da ciência e da arte da boa cerveja"*.
 

@@ -1,6 +1,7 @@
 # Ensino
 
 @def title = "Ensino"
+@def pt_lang = true
 
 \toc
 

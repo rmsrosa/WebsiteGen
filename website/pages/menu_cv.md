@@ -1,6 +1,7 @@
 # Curriculum Vitae
 
 @def title = "CV"
+@def pt_lang = true
 
 \toc
 
@@ -10,7 +11,7 @@
 
 ## Páginas em organizações científicas
 
-* [Página no MathSciNet](https://mathscinet.ams.org/mathscinet/MRAuthorID/366407) (acesso parcialmente restrito)
+* [Página no MathSciNet (acesso parcialmente restrito)](https://mathscinet.ams.org/mathscinet/MRAuthorID/366407)
 
 * [AMS MR Lookup (publicações mais recentes indexadas pela AMS-MR)](https://mathscinet.ams.org/mrlookup?s3=rosa,+r*&format=mrcit&Search=Search)
 

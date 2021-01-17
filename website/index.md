@@ -1,6 +1,7 @@
 # Bem vindo à minha página pessoal
 
 @def title = "Ricardo M. S. Rosa"
+@def pt_lang = true
 
 @@row
 @@container
