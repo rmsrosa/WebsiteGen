@@ -7,7 +7,7 @@
 
 2. [AMS-SBM Joint International Meeting](http://www.ams.org/meetings/international/2142_progfull.html) (IMPA, Rio de Janeiro, June 4-7, 2008 - Member of the Local Organizing Comitee)
 
-3. [II Workshop on Fluids and PDE](../static/wfpde08/index.html) (IM-UFRJ, Rio de Janeiro, August 13-15, 2008 - Coordinator)  
+3. [II Workshop on Fluids and PDE](/assets/wfpde08/index.html) (IM-UFRJ, Rio de Janeiro, August 13-15, 2008 - Coordinator)  
 
 4. [1st Franco-Brazilian Fluids Summer School](http://www.ime.unicamp.br/~equadif/wp-content/uploads/2015/09/cartaz-evfbfluidos.png) (Unicamp, Campinas, January 13-22, 2010 - Member of the Scientific Comitee)
 
@@ -17,7 +17,7 @@
 
 7. [Mini-symposium MS0 Turbulence and Statistical Solutions in Incompressible Flows, 2011 SIAM Conference on Analysis of Partial Differential Equations](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=13624) (San Diego, California, November 14-17, 2011 - Member of the Organizing Comitee of the Session)  
 
-8. [Fluid Seminar at IM-UFRJ](../static/semfluidos/index.html) (IM-UFRJ, Rio de Janeiro, 2013/1 - Coordinator)  
+8. [Fluid Seminar at IM-UFRJ](/assets/semfluidos/index.html) (IM-UFRJ, Rio de Janeiro, 2013/1 - Coordinator)  
 
 9. [Session 'Fluid Mechanics: from Turbulence to Free Boundaries', The Mathematical Congress of the Americas 2013](http://mca2013.org/en/programme/scientific-programme/special-sessions.html) (Guajanuato, México, August 5-9, 2013 - Member of the Organizing Comitee of the Session)  
 

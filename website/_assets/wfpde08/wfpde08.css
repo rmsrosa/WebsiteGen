@@ -1,0 +1,152 @@
+.corpo {
+  border: none;
+  font-family: Arial, sans-serif;
+  background-color: #507090;
+  background-color: #fff0a0;
+}
+.caixasuporte {
+  border: none;
+  vertical-align: top;
+  width: 100%;
+}
+.caixabase {
+  width: 800px;
+  height: 600px;
+  padding-bottom: 6px;
+  background-color: #ffffff;
+  vertical-align: top;
+  border: none;
+  background-repeat: no-repeat;
+  background-image: url("imagens/fundo_home.jpg");
+  /* Essa imagem é uma parte de um poster retirado da AMS Math Awareness Month 
+      de Abril de 2005, de http://www.mathaware.org/mam/05/theme.poster.html,
+      e é creditada ao Max Planck Institute on Gravitational Physics
+  */  
+}
+.caixacabecalho {
+  border: none;
+  height: 126px;
+} 
+.caixaprincipal {
+  border: none;
+  margin-left: 7px;
+  margin-right: 7px;
+  height: 470px;
+}
+
+.caixamenu {
+  border: none;
+  width: 100px;
+  vertical-align: top;
+  font-size: 12px;
+  font-weight: bold;
+  color: #000000;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #204060;
+} 
+.caixatexto {
+  border: none;
+  width: 626px;
+  text-align: left;
+  vertical-align: top;
+  font-size: 14px;
+  padding: 12px;
+  background-color: #eaeaf4;
+}
+.caixatexto a {
+  font-weight: bold; 
+  text-decoration: none;
+  color: #204060;
+}
+.caixatexto a:hover {
+  color: #000000;
+}
+.caixatexto h1 {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+}
+.caixatexto h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.caixatexto ul {
+  list-style-image: url("imagens/seta.gif");
+}
+.caixatexto li {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+table.apoio {
+  width: 100%;
+  text-align: center;
+  border-spacing: 2px;  table-layout: fixed;
+}
+.apoio tr {
+  height: 40px;
+}
+
+.apoio td {
+  width: 160px;
+}
+
+.cabecalho {
+  height: 120px;
+  padding-top: 78px;
+  padding-left: 146px;
+  font-size: 16px;
+  text-align: left;
+  vertical-align: top;
+  color: #ffffff;
+}
+.cabecalho a {
+  font-weight: bold;
+  color: #ffffff;
+  text-decoration: none;
+}
+.cabecalho a:hover {
+  color: #ffb000;
+}
+
+
+.menu {
+  text-align: left;
+}
+.menu hr {
+  height: 1px;
+  border: none;
+  background-color: #000000;
+}
+.menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #507090;
+}
+
+.caixanoticias {
+  color: #507090;
+}
+.caixanoticias h1 {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: center;
+  color: #507090;
+}
+.caixanoticias hr {
+  height: 1px;
+  border: none;
+  background-color: #507090;
+}
+.caixanoticias ul {
+  list-style-image: url("imagens/setaazul.gif");
+}
+
+

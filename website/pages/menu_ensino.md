@@ -17,7 +17,7 @@
   * **Carga assíncrona:** Vídeo-aulas disponibilizadas semanalmente em canal do YouTube, acessíveis através de links no Google Classroom, assim como a leitura das notas de aula
   * **Carga síncrona:** Uma vez por semana, de 10h às 12h, via Google Meet, com link disponiblizado pelo Google Classroom ou enviado por convite, com o principal intuito de esclarecer dúvidas surgidas a partir do texto e dos vídeos discutidos na semana. O nosso primeiro encontro síncrono será na terça-feira, dia 1/dez/2020, pelo Google Meet. O link para o primeiro encontro será enviado por convite e disponibilizado aqui poucos minutos antes da aula.
 
-* **Notas de aula:** [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
+* **Notas de aula:** [Equações Diferenciais versão 2017/1](/assets/material/apostila-ed-maio2017.pdf)
 
 * **Avaliação:** Atividades semanais pelo Google Classroom.
 
@@ -34,7 +34,7 @@
   * **Carga assíncrona:** Vídeo-aulas disponibilizadas semanalmente em canal do YouTube, acessíveis através de links no Google Classroom, assim como a leitura das notas de aula
   * **Carga síncrona:** Uma vez por semana, de 10h às 12h, via Google Meet, com link disponiblizado pelo Google Classroom, com o principal intuito de esclarecer dúvidas surgidas a partir do texto e dos vídeos discutidos na semana
 
-* **Notas de aula:** [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
+* **Notas de aula:** [Equações Diferenciais versão 2017/1](/assets/material/apostila-ed-maio2017.pdf)
 
 * **Avaliação:** Atividades semanais pelo Google Classroom.
 
@@ -92,7 +92,7 @@
   * Segunda Prova: 25 de junho de 2019 (terça-feira)
   * Prova Final: 4 de julho de 2019 (quinta-feira)
 * Material:
-  * [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
+  * [Equações Diferenciais versão 2017/1](/assets/material/apostila-ed-maio2017.pdf)
 
 ### 2018/2: Cálculo Integral e Diferencial II - Ciência da Computação (Unificado)
 
@@ -147,11 +147,11 @@
   * Segunda Prova: 29 de novembro de 2017 (quarta-feira)
   * Prova Final: 8 de dezembro de 2017 (sexta-feira)
 * Material:
-  * [Primeira Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista1.pdf) - entregar na aula do dia 25 de agosto, sexta-feira
-  * [Segunda Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista2.pdf) - entregar na aula do dia 27 de agosto, quarta-feira (ou enviar pdf por email até o final do horário da aula)
-  * [Terceira Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista3.pdf) - entregar na aula do dia 18 de outubro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
-  * [Quarta Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista4.pdf) - entregar na aula do dia 8 de novembro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
-  * [Quinta Lista](/pages/material/lista-calculoinfinitesimal2-2017-2-lista5.pdf) - não precisa entregar; não será corrigida
+  * [Primeira Lista](/assets/material/lista-calculoinfinitesimal2-2017-2-lista1.pdf) - entregar na aula do dia 25 de agosto, sexta-feira
+  * [Segunda Lista](/assets/material/lista-calculoinfinitesimal2-2017-2-lista2.pdf) - entregar na aula do dia 27 de agosto, quarta-feira (ou enviar pdf por email até o final do horário da aula)
+  * [Terceira Lista](/assets/material/lista-calculoinfinitesimal2-2017-2-lista3.pdf) - entregar na aula do dia 18 de outubro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
+  * [Quarta Lista](/assets/material/lista-calculoinfinitesimal2-2017-2-lista4.pdf) - entregar na aula do dia 8 de novembro, quarta-feira (ou enviar pdf por email até as 15h desse dia)
+  * [Quinta Lista](/assets/material/lista-calculoinfinitesimal2-2017-2-lista5.pdf) - não precisa entregar; não será corrigida
 
 ### 2017/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
@@ -165,7 +165,7 @@
   * Segunda Prova: 22 de junho de 2017 (quinta-feira)
   * Prova Final: 29 de junho de 2017 (quinta-feira)
 * Material:
-  * [Equações Diferenciais versão 2017/1](/pages/material/apostila-ed-maio2017.pdf)
+  * [Equações Diferenciais versão 2017/1](/assets/material/apostila-ed-maio2017.pdf)
 
 ### 2017/1: Cálculo Integral e Diferencial II (Ciência da Computação)
 
@@ -190,10 +190,10 @@
   * Segunda Prova: 14 de dezembro de 2016 (quarta-feira)
   * Prova Final: 21 de dezembro de 2016 (quarta-feira)
 * Material:
-  * [Primeira Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
-  * [Segunda Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
-  * [Terceira Lista](/pages/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
-  * [Prova 1 (Trabalho 1)](/pages/material/provas-calculoinfinitesimal2-2016-2-P1.pdf)
+  * [Primeira Lista](/assets/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Segunda Lista](/assets/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Terceira Lista](/assets/material/lista-calculoinfinitesimal2-2016-2-lista1.pdf)
+  * [Prova 1 (Trabalho 1)](/assets/material/provas-calculoinfinitesimal2-2016-2-P1.pdf)
 
 ### 2016/1: Cálculo Diferencial e Integral II (Ciência da Computação)
 
@@ -223,15 +223,15 @@
 
 ### 2008/1: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
+* Material: [Modelagem Matemática (notas de aula)](/assets/material/modelagemmatematica.pdf)
 
 ### 2007/2: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
+* Material: [Modelagem Matemática (notas de aula)](/assets/material/modelagemmatematica.pdf)
 
 ### 2007/1: Modelagem Matemática (Matemática e Matemática Aplicada)
 
-* Material: [Modelagem Matemática (notas de aula)](/pages/material/modelagemmatematica.pdf)
+* Material: [Modelagem Matemática (notas de aula)](/assets/material/modelagemmatematica.pdf)
 
 ### 2006/1: Equações Diferenciais (Matemática, Matemática Aplicada, Estatística, Atuária)
 
@@ -279,22 +279,22 @@
   * Segunda Prova: 8 de novembro de 2018, de 12h00 às 15h (quinta-feira)
   * Terceira Prova: 11 de dezembro de 2018 (terça-feira)
 * Material:
-  * [Lista 1](/pages/material/lista-integracao-2018-2-lista1.pdf) (entregar até quinta-feira, dia 6 de setembro de 2018)
-  * [Lista 2](/pages/material/lista-integracao-2018-2-lista2.pdf) (entregar até quinta-feira, dia 2 de outubro de 2018)
-  * [Lista 3](/pages/material/lista-integracao-2018-2-lista3.pdf) (entregar até quinta-feira, dia 9 de outubro de 2018)
-  * [Lista 4](/pages/material/lista-integracao-2018-2-lista4.pdf) (entregar até quinta-feira, dia 25 de outubro de 2018)
-  * [PDF da P1](/pages/material/provas-integracao-2018-2_P1.pdf) / [PDF da P1 com Respostas](/pages/material/provas-integracao-2018-2_P1_ComRespostas.pdf)
-  * [PDF da P2](/pages/material/provas-integracao-2018-2_P2.pdf) / [PDF da P2 com Respostas](/pages/material/provas-integracao-2018-2_P2_ComRespostas.pdf)
+  * [Lista 1](/assets/material/lista-integracao-2018-2-lista1.pdf) (entregar até quinta-feira, dia 6 de setembro de 2018)
+  * [Lista 2](/assets/material/lista-integracao-2018-2-lista2.pdf) (entregar até quinta-feira, dia 2 de outubro de 2018)
+  * [Lista 3](/assets/material/lista-integracao-2018-2-lista3.pdf) (entregar até quinta-feira, dia 9 de outubro de 2018)
+  * [Lista 4](/assets/material/lista-integracao-2018-2-lista4.pdf) (entregar até quinta-feira, dia 25 de outubro de 2018)
+  * [PDF da P1](/assets/material/provas-integracao-2018-2_P1.pdf) / [PDF da P1 com Respostas](/assets/material/provas-integracao-2018-2_P1_ComRespostas.pdf)
+  * [PDF da P2](/assets/material/provas-integracao-2018-2_P2.pdf) / [PDF da P2 com Respostas](/assets/material/provas-integracao-2018-2_P2_ComRespostas.pdf)
 
 ### 2012/2: Análise Funcional
 
 * Material:
-  * [Lista 1](/pages/material/AnaliseFuncional-Listas-RRosa-2012-2.pdf)
-  * [Lista 3](/pages/material/AnaliseFuncionalLista3.txt)
+  * [Lista 1](/assets/material/AnaliseFuncional-Listas-RRosa-2012-2.pdf)
+  * [Lista 3](/assets/material/AnaliseFuncionalLista3.txt)
 
 ### 2008/1: Sistemas Dinâmicos
 
-* Material: [Equações Diferenciais Ordinárias e Introdução aos Sistemas Dinâmicos (Notas de aula)](/pages/material/sdnotes.pdf)
+* Material: [Equações Diferenciais Ordinárias e Introdução aos Sistemas Dinâmicos (Notas de aula)](/assets/material/sdnotes.pdf)
 
 ### 2006/1: Equações a Derivadas Parciais
 
@@ -329,14 +329,14 @@
 * **Evento:** Primeira Escola Brasileira de Equações Diferenciais (I EBED)
 * **Local:** IMECC-Unicamp, Campinas, SP
 * **Datas:** de 9 a 13 de junho de 2003
-* **Material:** [Transparências utilizadas](/pages/material/ebednsetwoup.pdf)
+* **Material:** [Transparências utilizadas](/assets/material/ebednsetwoup.pdf)
 
 ### fev/2003: Equações de Navier-Stokes e turbulência
 
 * **Evento:** Programa de Verão do LNCC
 * **Local:** LNCC, Petrópolis, RJ
 * **Datas:** de 24 a 27 de fevereiro de 2003
-* **Material:** [Transparências utilizadas](/pages/material/lnccnsetwoup.pdf)
+* **Material:** [Transparências utilizadas](/assets/material/lnccnsetwoup.pdf)
 
 ### fev/2002: Equações de Navier-Stokes e turbulência
 

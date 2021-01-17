@@ -5,7 +5,7 @@
 
 @@row
 @@container
-@@left ![Ricardo Rosa](/pages/img/rrosamontealban_square_small.jpg) @@
+@@left ![Ricardo Rosa](/assets/img/rrosamontealban_square_small.jpg) @@
 @@
 Sou Professor Titular do Departamento de Matemática Aplicada do [IM-UFRJ](www.im.ufrj.br), com doutorado em [Matemática Aplicada pela Universidade de Indiana](https://math.indiana.edu), nos EUA.
 

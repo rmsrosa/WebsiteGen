@@ -31,9 +31,9 @@
 
 ## Short-courses
 
-* "Resultados recentes sobre as equações de Navier-Stokes para fluidos incompressíveis". Primeira Escola Brasileira de Equações Diferenciais (I EBED), IMECC-Unicamp, Campinas, SP. June 9-13, 2003. [Slides](/pages/material/ebednsetwoup.pdf)
+* "Resultados recentes sobre as equações de Navier-Stokes para fluidos incompressíveis". Primeira Escola Brasileira de Equações Diferenciais (I EBED), IMECC-Unicamp, Campinas, SP. June 9-13, 2003. [Slides](/assets/material/ebednsetwoup.pdf)
 
-* "Equações de Navier-Stokes e turbulência". Summer Program at LNCC, Petrópolis, RJ. February 24-27, 2003. [Slides](/pages/material/lnccnsetwoup.pdf)
+* "Equações de Navier-Stokes e turbulência". Summer Program at LNCC, Petrópolis, RJ. February 24-27, 2003. [Slides](/assets/material/lnccnsetwoup.pdf)
 
 * "Equações de Navier-Stokes e turbulência". Summer Program at IM-UFRJ, Rio de Janeiro, RJ. January 4, 6, 8, 18, 20, 22, 2002.
 

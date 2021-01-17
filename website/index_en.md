@@ -5,7 +5,7 @@
 
 @@row
 @@container
-@@left ![Ricardo Rosa](/pages/img/rrosamontealban_square_small.jpg) @@
+@@left ![Ricardo Rosa](/assets/img/rrosamontealban_square_small.jpg) @@
 @@
 I am a Full Professor at the Applied Mathematics Department (Matemática Aplicada) in the [Institute of Mathematics](www.im.ufrj.br) of the Federal University of Rio de Janeiro (Instituto de Matemática/Universidade Federal do Rio de Janeiro - IM/UFRJ), with a PhD degree in [Applied Mathematics from the Indiana University, USA](https://math.indiana.edu).
 
