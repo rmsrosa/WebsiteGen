@@ -83,4 +83,10 @@
 
 ## Scientific publications
 
-???
+### Articles
+
+\textinput{/assets/complements/articles.md}
+
+### Books
+
+\textinput{/assets/complements/books.md}
