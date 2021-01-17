@@ -2,6 +2,7 @@
 
 @def title = "Administração"
 @def pt_lang = true
+
 ## Atuais
 
 * Participação em bancas de progressão funcional, estágio docente e concursos públicos
