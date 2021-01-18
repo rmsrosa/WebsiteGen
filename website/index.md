@@ -12,6 +12,7 @@ Sou Professor Titular do Departamento de Matemática Aplicada do [IM-UFRJ](www.i
 A minha formação é em equações a derivadas parciais, com ênfase em dinâmica em dimensão infinita, equações de Navier-Stokes de escoamentos incompressíveis e soluções estatísticas em turbulência.
 
 &mdash; Ricardo M. S. Rosa
+{{cpfiletosite README.md}}
 <!-- ~~~
 <div style="clear: both"></div>
 ~~~ -->

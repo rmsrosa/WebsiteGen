@@ -1,3 +1,8 @@
+function hfun_cpfiletosite(filenamevec)
+    cp(filenamevec[1], joinpath("__site", filenamevec[1]))
+    return nothing
+end
+
 function hfun_bar(vname)
   val = Meta.parse(vname[1])
   return round(sqrt(val), digits=2)
