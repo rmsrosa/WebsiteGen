@@ -34,13 +34,21 @@ If starting afresh,
 
 ```zsh
 git init
+git checkout -b main
 git remote add origin https://github.com/rmsrosa/rmsrosa.github.com.git
 git add -A
 git commit -m "initial commit"
-git push --set-upstream origin master
+git push -u origin main
+# git push --set-upstream origin main
 ```
 
-After that, whenever you want to update the site with changes, just repeat the last three commands.
+After that, whenever you want to update the site with changes, just do
+
+```zsh
+git add -A
+git commit -m "commit message"
+git push
+```
 
 ## Videos and animated gifs
 
