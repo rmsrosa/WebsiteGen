@@ -1,6 +1,6 @@
-# Website generation
+# Website Generator
 
-This repository is for generating my personal website, containing both work and non-work related stuff.
+This repository is for generating my personal website, containing both work and non-work related stuff, and currently hosted at [rmsrosa.github.io](https://rmsrosa.github.io).
 
 It uses [Franklin.jl](https://github.com/tlienart/Franklin.jl), in the [Julia language](https://julialang.org).
 
@@ -24,7 +24,23 @@ For a live local preview of the page, serve it from the `website/` folder with
 serve()
 ```
 
-This generates the static website and opens up the default browser with the locally generated site. Any change made in the source files are automatically reflected in the generated site.
+This generates the static website, under `__site`, and opens up the default browser with the locally generated site. Any changes made in the source files are automatically reflected in the generated site.
+
+## Publishing the generated website
+
+Currently, with the site hosted at [rmsrosa.github.io](https://rmsrosa.github.io), one should make `__site` a git repo to sync with [rmsrosa.github.io](https://rmsrosa.github.io). If this has not been done yet, then, `cd` to the folder `__site` and proceed with
+
+If starting afresh,
+
+```zsh
+git init
+git remote add origin https://github.com/rmsrosa/rmsrosa.github.com.git
+git add -A
+git commit -m "initial commit"
+git push --set-upstream origin master
+```
+
+After that, whenever you want to update the site with changes, just repeat the last three commands.
 
 ## Videos and animated gifs
 
