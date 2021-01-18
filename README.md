@@ -50,6 +50,23 @@ git commit -m "commit message"
 git push
 ```
 
+## Copying website/README.md to __site
+
+`README.md` is ignored by Franklin, for a good reason, since it should not be processed to `README/index.html`.
+
+But I wanted a `website/README.md` to be copied as is to `__site`, so it eventually gets synced to the github-pages repository.
+
+Following the help of @tlienart, I created the following `hfun_cpfiletosite` function in `utils.jl`:
+
+```julia
+function hfun_cpfiletosite(filenamevec)
+    cp(filenamevec[1], joinpath("__site", filenamevec[1]))
+    return nothing
+end
+```
+
+Then, I call this function in `index.md` with `{{cpfiletoside README.md}}`. That's it!
+
 ## Videos and animated gifs
 
 Followed [StackExchange: How do I convert a video to GIF using ffmpeg, with reasonable quality?](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
