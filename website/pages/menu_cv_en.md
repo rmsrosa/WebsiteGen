@@ -21,6 +21,10 @@
 
 * [Info at Scopus - Author ID: 35606819600](https://www.scopus.com/authid/detail.uri?authorId=35606819600)
 
+## Github page
+
+* [github.com/rmsrosa](https://github.com/rmsrosa)
+
 ## Distinctions
 
 ### Prizes
@@ -80,6 +84,60 @@
 * First place in the exam for a position as Assistant Professor at the Department of Applied Mathematicas, UFRJ, August 1992.
 
 * First place in the exam for a position as Substitute Professor at the Department of Applied Mathematicas, UFRJ, March 1992.
+
+## Administrative Activities
+
+### Current
+
+* Member of various examining comittees for university admission, carreer progression, tenure, etc.
+
+* Referee of research journals like *Journal of Differential Equations*, *Discrete and Continuous Dynamical Systems*, *Indiana University Math Journal*, *SIAM Journal of Mathematical Analysis*, *SIAM Journal of Numerical Analysis*, *Journal of Mathematical Analysis and its Applications*, *Physica D*, *Nonlinear Analysis TMA*, etc.
+
+* Ad-hoc referee for the financial agencies CNPq, CAPES and FAPERJ
+
+### Previous
+
+* Associate Director for the Graduate Programs at the [IM-UFRJ](http://www.im.ufrj.br) (November 2007 to February 2011)
+
+* Member of the [CAPES](http://www.capes.gov.br) National Comittee in the Area of Mathematics/Probability and Statistics (2011 to 2013)
+
+* Member of the [CAPES](http://www.capes.gov.br) National Comittee in the Area of Mathematics/Probability and Statistics (2008 to 2010)
+
+* Representative at the University Comittee for the Undergraduate Research Program ([Comitê Institucional do PIBIC/UFRJ](http://www.pr2.ufrj.br/)) (March 2004 to March 2011)
+
+* Representative in the Comittee of the Mathematics Graduate Program at UFRJ ([Programa de Pós-Graduação em Matemática](http://www.pgmat.im.ufrj.br/)/[IM-UFRJ](http://www.im.ufrj.br)) (2005 to 2012 and 2016 to 2020)
+
+* Coordinator of the [Graduate Programa in Applied Mathematics](http://www.dma.im.ufrj.br/mestrado/) at the [IM-UFRJ](http://www.im.ufrj.br) (2001 to 2007)
+
+* Representative in the Graduate University Council [Conselho de Ensino para Graduados (CEPG)](http://www.pr2.ufrj.br/) at UFRJ (November 2003 to October 2005)
+
+* Member of the Council for Evaluation and Follow-up of Graduate Programs (Câmara de Avaliação e Acompanhamento de Cursos) of the [CEPG-UFRJ](http://www.pr2.ufrj.br/) (November 2003 to October 2005)
+
+* Member of various examining comittees for university admission, carreer progression, tenure, etc.
+
+## Events organized
+
+1. [Summer School IM-UFRJ 2007](http://www.pg.im.ufrj.br/verao/verao2007.htm) (IM-UFRJ, Rio de Janeiro, early January to early March - Coordinator)
+
+2. [AMS-SBM Joint International Meeting](http://www.ams.org/meetings/international/2142_progfull.html) (IMPA, Rio de Janeiro, June 4-7, 2008 - Member of the Local Organizing Comitee)
+
+3. [II Workshop on Fluids and PDE](/assets/wfpde08/index.html) (IM-UFRJ, Rio de Janeiro, August 13-15, 2008 - Coordinator)  
+
+4. [1st Franco-Brazilian Fluids Summer School](http://www.ime.unicamp.br/~equadif/wp-content/uploads/2015/09/cartaz-evfbfluidos.png) (Unicamp, Campinas, January 13-22, 2010 - Member of the Scientific Comitee)
+
+5. [III Workshop on Fluids and PDE](http://www2.im.ufrj.br/~hlopes/WFEDP3/) (Unicamp, Campinas, June 27 to July 1, 2011 - Member of the Scientific Comitee)  
+
+6. [IV Escola Brasileira de Equações Diferenciais](http://www.mat.ufpb.br/ebed/) (João Pessoa, Paraíba, August 22-26, 2011 - Member of the Scientific Comitee)
+
+7. [Mini-symposium MS0 Turbulence and Statistical Solutions in Incompressible Flows, 2011 SIAM Conference on Analysis of Partial Differential Equations](http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=13624) (San Diego, California, November 14-17, 2011 - Member of the Organizing Comitee of the Session)  
+
+8. [Fluid Seminar at IM-UFRJ](/assets/semfluidos/index.html) (IM-UFRJ, Rio de Janeiro, 2013/1 - Coordinator)  
+
+9. [Session 'Fluid Mechanics: from Turbulence to Free Boundaries', The Mathematical Congress of the Americas 2013](http://mca2013.org/en/programme/scientific-programme/special-sessions.html) (Guajanuato, México, August 5-9, 2013 - Member of the Organizing Comitee of the Session)  
+
+10. [Conference 5x05. Celebrating 25 years of the MSc program in Applied Mathematics of the IM-UFRJ](http://www2.im.ufrj.br/5x05/) (IM-UFRJ, Rio de Janeiro, April 2-4, 2014 - Member of the Local Organizing Comitee)  
+
+11. [IV Workshop on Fluids and PDE](https://impa.br/sobre/memoria/reunioes-cientificas/iv-workshop-em-fluidos-e-edp/) (IMPA, Rio de Janeiro, May 26-30, 2014 - Member of the Scientific Comitee)
 
 ## Scientific publications
 
