@@ -108,9 +108,9 @@ instead, display a burger menu.
     padding: 4px;
     background: #fff;
     border: 1px solid #444;
-    right: 150px;
+    right: 100px;
     top: 50px;
-    width: 60%;
+    width: 40%;
     border-radius: 4px;
     z-index: 1;
   }
