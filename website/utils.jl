@@ -1,6 +1,6 @@
 function hfun_cpfiletosite(filenamevec)
-    cp(filenamevec[1], joinpath("__site", filenamevec[1]))
-    return nothing
+    cp(filenamevec[1], joinpath("__site", filenamevec[1]); force=true)
+    return ""
 end
 
 function hfun_bar(vname)
