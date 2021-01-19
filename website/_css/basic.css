@@ -105,13 +105,12 @@ instead, display a burger menu.
   nav:active ul {
     display: none;
     position: absolute;
-
     padding: 4px;
     background: #fff;
     border: 1px solid #444;
-    right: 0px;
-    top: 60px;
-    width: 30%;
+    right: 150px;
+    top: 50px;
+    width: 60%;
     border-radius: 4px;
     z-index: 1;
   }
@@ -120,7 +119,7 @@ instead, display a burger menu.
     text-align: left;
     display: block;
     padding: 0;
-    margin: 0;
+    margin: 4px;
   }
   header li a { border-bottom: none; }
   header li a:hover { border-bottom: none; }
