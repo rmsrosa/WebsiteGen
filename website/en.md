@@ -16,3 +16,7 @@ My background is on Partial Differential Equations, with emphasis in Infinite Di
 <div style="clear: both"></div>
 ~~~ -->
 @@
+
+## News
+
+\textinput{/assets/complements/news.md}

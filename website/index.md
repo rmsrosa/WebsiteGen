@@ -17,3 +17,7 @@ A minha formação é em equações a derivadas parciais, com ênfase em dinâmi
 <div style="clear: both"></div>
 ~~~ -->
 @@
+
+## Notícias
+
+\textinput{/assets/complements/news.md}
