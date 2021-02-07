@@ -4,7 +4,10 @@
 @def authors = "R. Rosa"
 @def published = "6 February 2021"
 @def rss_pubdate = Date(2021, 2, 6)
-@def rss = """Greetings"""
+@def rss = "Greetings"
+@def rss_description = """Introductory post in my blog"""
+
+{{ published }} | **{{ authors }}**
 
 This is an introductory post. I used to have a blog about homebrewing, created in 2006, in a time where not much information was available in Brazil about homebrewing. So I guess my blog turned out to be of some value. Since then, I was happy to see the homebrewing community grow so large in Brazil.
 
