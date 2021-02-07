@@ -12,6 +12,14 @@ portuguese_days = ["domingo", "segunda", "terça", "quarta", "quinta", "sexta", 
 portuguese_days_abbrev = ["dom", "seg", "ter", "qua", "qui", "sex", "sab"]
 Dates.LOCALES["portuguese"] = Dates.DateLocale(portuguese_months, portuguese_months_abbrev, portuguese_days, portuguese_days_abbrev)
 
+"""
+    {{ cpfiletosite filenamvec }}
+
+Copy the given files to the site.
+
+It is used in `index.md` to copy the webpage/README.md to the final website
+repository, which is needed since README.md is ignored by Franklin.
+"""
 function hfun_cpfiletosite(filenamevec)
     cp(filenamevec[1], joinpath("__site", filenamevec[1]); force=true)
     return ""
@@ -69,6 +77,9 @@ function hfun_blogposts(lang)
 end
 
 """
+    {{ blogcomments }}
+
+Add a comment javascript section, managed by the utterances app <https://utteranc.es>.
 """
 function hfun_blogcomments()
     html_str = """
@@ -81,21 +92,4 @@ function hfun_blogcomments()
     </script>
     """
     return html_str
-end
-
-function hfun_bar(vname)
-  val = Meta.parse(vname[1])
-  return round(sqrt(val), digits=2)
-end
-
-function hfun_m1fill(vname)
-  var = vname[1]
-  return pagevar("index", var)
-end
-
-function lx_baz(com, _)
-  # keep this first line
-  brace_content = Franklin.content(com.braces[1]) # input string
-  # do whatever you want here
-  return uppercase(brace_content)
 end
