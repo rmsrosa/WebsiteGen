@@ -5,8 +5,8 @@ Add here global page variables to use throughout your
 website.
 The website_* must be defined for the RSS to work
 -->
-@def website_title = "Ricardo MS Rosa"
-@def website_descr = "Webpage of Ricardo M. S. Rosa"
+@def website_title = "Ricardo M S Rosa"
+@def website_descr = "Website of Ricardo M. S. Rosa"
 @def website_url   = "https://rmsrosa.github.io/"
 
 @def author = "Ricardo M. S. Rosa"
@@ -14,6 +14,7 @@ The website_* must be defined for the RSS to work
 @def mintoclevel = 2
 @def maxtoclevel = 2
 
+@def generate_rss = true
 @def pt_lang = true
 
 <!--
