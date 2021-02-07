@@ -10,7 +10,7 @@ This is an introductory post. I used to have a blog about homebrewing, initiated
 
 This time, I want to revive the blog, but open up the focus, including math and coding. And it is for this reason that I decided, reluctantly, to write some posts in English, including this one.
 
-For a long time, my personal homepages were all in pure html, sometimes with a little javascript. About two years ago, I revamped it in Python/Flask. Last year, though, I realized the power of [the Julia language](https://julialang.org) and decided now to rewrite my website in Julia/Franklin. 
+For a long time, my personal homepages were all in pure html, sometimes with a little javascript. About two years ago, I revamped it in Python/Flask. Last year, though, I realized the power of [the Julia language](https://julialang.org) and decided now to rewrite my website in Julia/Franklin.
 
 [Franklin](https://franklinjl.org) is a static-site generator written purely in Julia. It is so much easier than Flask and good enough for me since I didn't really need the power of Flask as a dynamic site. In fact, I would build a static site out of it before publishing it.
 
