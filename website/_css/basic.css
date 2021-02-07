@@ -162,3 +162,31 @@ td {
 table tbody tr td {
   border: 1px solid lightgray;
 }
+
+.bloglist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+.bloglist > p {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  font-size: 0.9em;
+  font-family: Open Sans, sans-serif;
+  font-weight: 100;
+  line-height: 1.1rem;
+  border-radius: 5px;
+  border: 1px solid #BFBFBF;
+  background-color: #EEE;
+  background-color: rgba(238, 238, 238, 0.4);
+  box-shadow: 1px 1px 5px #aaaaaa;
+  text-align:left;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.bloglist > p a {
+  display: block;
+  font-weight: 600;
+  padding-bottom: 0.5em;
+}
