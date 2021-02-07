@@ -67,6 +67,10 @@ end
 
 Then, I call this function in `index.md` with `{{cpfiletoside README.md}}`. That's it!
 
+## Blog comments
+
+Franklin generates static sites, so it is not possible to have blog comments directly with it. However, there are several comment engines that can be included in a static site via javascript or iframe. Here is a list of some of them: [utterances](https://utteranc.es), [StaticMan](https://staticman.net), [IntenseDebate](https://intensedebate.com), [Isso](https://posativ.org/isso/), [Remark42](https://github.com/umputun/remark42), [Talkyard](https://www.talkyard.io), [GraphComment](https://graphcomment.com/en/), [Muut](https://muut.com), [Commento](https://commento.io), and [Disqus](https://disqus.com). Some are free, some are paid, and some paid ones have limited free plans. Some are open source and some are closed source. I opted for [utterances](https://utteranc.es), since it is free, open-source, pretty easy to install, and all the comments are directly accessible in another github repo (or the same as the website repo, if you like).
+
 ## Videos and animated gifs
 
 Followed [StackExchange: How do I convert a video to GIF using ffmpeg, with reasonable quality?](https://superuser.com/questions/556029/how-do-i-convert-a-video-to-gif-using-ffmpeg-with-reasonable-quality)
