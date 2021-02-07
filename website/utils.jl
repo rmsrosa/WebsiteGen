@@ -20,7 +20,7 @@ end
 """
     {{ blogposts }}
 
-Plug in the list of blog posts contained in the `/blog/` folder.
+Add the list of blog posts contained in the `/blog/` folder.
 Borrowed from JuliaLang Franklin-generated website.
 """
 function hfun_blogposts(lang)
@@ -66,6 +66,21 @@ function hfun_blogposts(lang)
         Franklin.fd2html(String(take!(io)), internal=true) * 
         "\n</div>\n"
     return r
+end
+
+"""
+"""
+function hfun_blogcomments()
+    html_str = """
+    <script src="https://utteranc.es/client.js"
+        repo="rmsrosa/blog_comments"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+    """
+    return html_str
 end
 
 function hfun_bar(vname)

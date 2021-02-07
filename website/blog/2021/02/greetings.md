@@ -16,4 +16,10 @@ For a long time, my personal homepages were all in pure html, sometimes with a l
 
 With Franklin, the only thing that was bothering me was that I wouldn't be able to have comments on the blogs, since it is a static site. However, I ended up learning that there are a number of tools and apps to embed a comment section in static sites with  javascripts or iframe. With that, Franklin is just perfect for what I need.
 
-Deploying the site is as simple as pushing the changes to a github repo. For the comments, there are paid and free apps, open and close source. I chose to use [utterances](https://utteranc.es), a no-fuss solution that keeps all the comments in another github repo (one can use the same as that for the website, but I chose to use a different one, for more independence).
+Deploying the site is as simple as pushing the changes to a github repo. For the comments, there are paid and free apps, open and closed source. I chose to use [utterances](https://utteranc.es), a free, open-source no-fuss solution that keeps all the comments in another github repo (one can use the same as that for the website, but I chose to use a different one, for more independence) and is pretty easy to install.
+
+Anyways, that is it for the Introduction.
+
+Cheers!
+
+{{ blogcomments }}
