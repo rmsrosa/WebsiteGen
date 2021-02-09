@@ -15,7 +15,7 @@ Today, I decided to revive the blog, but open up the focus to include *more* mat
 
 For a long time, my personal homepages were all in pure html, sometimes with a little javascript. About two years ago, I revamped it in Python/Flask. Last year, though, I realized the power of [the Julia language](https://julialang.org) and decided to rewrite my website in Julia/Franklin.
 
-[Franklin](https://franklinjl.org) is a static-site generator written purely in Julia. It is so much easier than Flask and good enough for me since I don't really need the power of Flask as building a dynamic site. In fact, I ended up building a static site out of the dynamic one before publishing it.
+[Franklin](https://franklinjl.org) is a static-site generator written purely in Julia, made by [Thibaut Lienart](https://github.com/tlienart). It is so much easier than Flask and good enough for me since I don't really need the power of Flask as building a dynamic site. In fact, in Flask, I ended up building a static site out of the dynamic one before publishing it.
 
 With Franklin, the only thing that was bothering me was that it seemed to me that I wouldn't be able to have comments on the blogs, since it is a static site. However, I ended up learning that there are a number of tools and apps to embed a comment section in static sites with javascripts or iframe. With that, Franklin turned out to be just perfect for what I need.
 
