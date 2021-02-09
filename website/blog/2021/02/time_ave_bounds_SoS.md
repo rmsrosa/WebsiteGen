@@ -11,7 +11,7 @@
 
 ## Motivation
 
-In many real-world problems, one is interested in estimating certain key related quantities. For instance, in fluid flows, quantities of interest involve kinetic energy, enstrophy, drag coefficient, energy dissipation rate, and so on. In other applications, one might be interested in mechanical stress, chemical concentration, infected population, pharmaceutical dosage, etc.
+In many real-world problems, one is interested in estimating certain key quantities related to the problem. For instance, in fluid flows, quantities of interest involve kinetic energy, enstrophy, drag coefficient, energy dissipation rate, and so on. In other applications, one might be interested in mechanical stress, chemical concentration, infected population, pharmaceutical dosage, etc.
 
 Many such problems can be resonably modeled by differential equations, which may, however, exibit complicate, perhaps chaotic dynamics. In those situations, the instantaneous value of certain quantities vary unpredictably in time, but very often their mean value is reasonably steady.
 
@@ -22,7 +22,7 @@ This mean value can be considered in different ways, e.g. as time average, as en
 If a model for the problem is available in the form of an ordinary differential equation
 $$ \frac{\textrm{d} u}{\textrm{d}t} = F(u),
 $$
-where $F:X\rightarrow X$ is some locally Lipschitz function acting in some finite-dimensional space $X=\mathbb{R}^n$, $n\in\mathbb{N}$, then, for each $u_0\in X$, there exists a unique solution $u=u(t)$ with $u(0)=u_0$. This defines a continuous semigroup $\{S(t)\}_{t\geq 0}$, acting on $X$, given by $S(t)u_0=u(t)$.
+where $F:X\rightarrow X$ is some locally Lipschitz function acting in some finite-dimensional space $X=\mathbb{R}^n$, $n\in\mathbb{N}$, then, for each $u_0\in X$, there exists a unique solution $u=u(t)$ with $u(0)=u_0$. If we assume all solutions are defined globally in the futures, we obtain a continuous semigroup $\{S(t)\}_{t\geq 0}$ acting on $X$, with given by $S(t)u_0=u(t)$.
 
 Given a function $\phi:X\rightarrow \mathbb{R}$ representing some "real" quantity we want to measure, the asymptotic superior limit of the time-average of $\phi(u(t))$ is given (and denoted) by
 $$ \bar\phi(u_0) = \limsup_{T\rightarrow} \frac{1}{T} \int_0^T \phi(u(t))\;\textrm{d}t.
