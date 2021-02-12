@@ -1,6 +1,10 @@
 ### ⟩⟩⟩ **Blog**
 
+{{ if pt_lang }}
 I used to have a blog about homebrewing, and I finally decided to revamp the blog [here](/pages/blog/), including Math and coding. Here are the initial [Greetings](/blog/2021/02/greetings/) post and the first mathematical post entitled [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/).
+{{ else }}
+I used to have a blog about homebrewing, and I finally decided to revamp the blog [here](/pages/blog_en/), including Math and coding. Here are the initial [Greetings](/blog/2021/02/greetings/) post and the first mathematical post entitled [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/).
+{{ end }}
 
 ### ⟩⟩⟩ **Slides of my talk at the ICMC Summer Meeting**
 
