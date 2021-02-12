@@ -21,15 +21,19 @@ It is used in `index.md` to copy the webpage/README.md to the final website
 repository, which is needed since README.md is ignored by Franklin.
 """
 function hfun_cpfiletosite(filenamevec)
-    cp(filenamevec[1], joinpath("__site", filenamevec[1]); force=true)
+    for i in 1:length(filenamevec)
+        cp(filenamevec[i], joinpath("__site", filenamevec[i]); force=true)
+    end
     return ""
 end
 
 """
-    {{ blogposts }}
+    {{ blogposts lang }}
 
 Add the list of blog posts contained in the `/blog/` folder.
-Borrowed from JuliaLang Franklin-generated website.
+Adapted from JuliaLang Franklin-generated website.
+Language variable `lang` is used to set the language for displaying
+the blog post dates.
 """
 function hfun_blogposts(lang)
     curyear = year(Dates.today())
