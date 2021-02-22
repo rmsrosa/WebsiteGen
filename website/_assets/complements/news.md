@@ -7,7 +7,7 @@ Neste novo artigo [Computing time average bounds for the Van der Pol oscillator 
 
 ### ⟩⟩⟩ **New blog post**
 
-In this new post [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), I continue the problem discussed in the previous post, by exemplifying the theory with the Van der Pol oscillator. It is illustrative to visualize the behavior of the limit cycle along the surface of the auxiliary function the minimizes the estimate of the time average.
+In this new post [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), I continue the problem discussed in the previous post, by exemplifying the theory with the Van der Pol oscillator. It is illustrative to visualize the behavior of the limit cycle along the surface of the auxiliary function that minimizes the estimate of the time average.
 {{ end }}
 
 ### ⟩⟩⟩ **Blog**
