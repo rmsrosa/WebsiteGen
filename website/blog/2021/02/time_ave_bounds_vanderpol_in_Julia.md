@@ -13,7 +13,7 @@
 
 ## Introduction
 
-We addressed, in the previous post [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/), the problem of estimating the asymptotic limit of time averages of quantities related to the solutions of a differential equation.
+We addressed, in the previous [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/) post, the problem of estimating the asymptotic limit of time averages of quantities related to the solutions of a differential equation.
 
 Here, the aim is to consider an example, namely the Van der Pol oscillator, and use two numerical methods to obtain those bounds: via time evolution of the system and via a convex semidefinite programming using Sum of Squares (SoS), both discussed in the previous post.
 

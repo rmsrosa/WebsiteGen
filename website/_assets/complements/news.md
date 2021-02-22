@@ -13,7 +13,7 @@ In this new post [Computing time average bounds for the Van der Pol oscillator i
 ### ⟩⟩⟩ **Blog**
 
 {{ if pt_lang }}
-Os que me conhecem sabem que eu costumava ter um blog sobre caseira, onde aproveitava pra usar um pouco de matemática em alguns artigos mais técnicos. Agora chegou a hora de fazer um [novo blog](/pages/blog/), incluindo mais matemática e programação, e de preferência sem deixar a cerveja de lado. Aqui o artigo inicial [Greetings](/blog/2021/02/greetings/) e o primeiro artigo [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/) com conteúdo matemático, sobre o meu mais recente trabalho de pesquisa.
+Eu costumava ter um blog sobre fabricação de cerveja caseira e finalmente decidi fazer [novo blog](/pages/blog/), incluindo matemática e programação. Aqui o artigo inicial [Greetings](/blog/2021/02/greetings/) e o primeiro artigo [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/) com conteúdo matemático, sobre o meu mais recente trabalho de pesquisa.
 {{ else }}
 I used to have a blog about homebrewing, and I finally decided to revamp the blog [here](/pages/blog_en/), including Math and coding. Here are the initial [Greetings](/blog/2021/02/greetings/) post and the first mathematical post entitled [Time average bounds via Sum of Squares](/blog/2021/02/time_ave_bounds_SoS/).
 {{ end }}
