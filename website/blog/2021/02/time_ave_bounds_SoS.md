@@ -3,6 +3,7 @@
 @def title = "Time average bounds via Sum of Squares"
 @def authors = "R. Rosa"
 @def published = "9 February 2021"
+@def pt_lang = false
 @def rss_pubdate = Date(2021, 2, 9)
 @def rss = "Time average bounds via Sum of Squares"
 @def rss_description = """A convex minimization approach and a minimax formula for obtaining optimal bounds for time averages of quantities of solutions of differential equations, and a Sum of Squares technique to approximate such bounds."""

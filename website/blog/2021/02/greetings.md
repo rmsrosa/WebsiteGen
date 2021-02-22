@@ -3,6 +3,7 @@
 @def title = "Greetings"
 @def authors = "R. Rosa"
 @def published = "6 February 2021"
+@def pt_lang = false
 @def rss_pubdate = Date(2021, 2, 6)
 @def rss = "Greetings"
 @def rss_description = """Introductory post in my blog"""
