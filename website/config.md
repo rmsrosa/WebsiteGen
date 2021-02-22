@@ -14,6 +14,8 @@ The website_* must be defined for the RSS to work
 @def mintoclevel = 2
 @def maxtoclevel = 2
 
+@def hasplotly = false
+
 @def generate_rss = true
 @def pt_lang = true
 
