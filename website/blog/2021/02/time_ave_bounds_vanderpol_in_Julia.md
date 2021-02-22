@@ -60,7 +60,7 @@ $$ \frac{\textrm{d} u}{\textrm{d}t} = F(u),
 $$
 where $\phi:X\rightarrow \mathbb{R}$ is continuous; $F:X\rightarrow X$ is some locally Lipschitz function acting in some finite-dimensional space $X=\mathbb{R}^n$, $n\in\mathbb{N}$; and assuming the solutions generate a continuous semigroup $\{S(t)\}_{t\geq 0}$, where $S(t)u_0=u(t)$.
 
-We exemplify this here with the Van der Pol system \eqref{vanderpolsystem} and with the quantity 
+We exemplify this here with the Van der Pol system \eqref{vanderpolsystem} and with the quantity
 $$\phi(x,y) = x^2 + y^2.
 $$
 
@@ -151,10 +151,12 @@ tspan=(0.0,Tmax)
 
 vdp_sol = [DifferentialEquations.solve(ODEProblem(vdp_du,u0,tspan,[μ], saveat=0.0:0.1:Tmax)) for μ in μ_range]
 
+vdp_sol_times = 0.0:0.1:Tmax
+
 plt_mu = [
     PlotlyJS.plot(
-        [PlotlyJS.scatter(;x=vdp_sol[j].t, y=map(x->x[2], vdp_sol[j].u), line_width=1, name="dx(t)/dt", showlegend=true*(j==1), mode="lines", line_color="orange"),
-        PlotlyJS.scatter(;x=vdp_sol[j].t, y=map(x->x[1], vdp_sol[j].u), line_width=3, name="x(t)", showlegend=true*(j==1),mode="lines", line_color="steelblue")],
+        [PlotlyJS.scatter(;x=vdp_sol_times, y=map(u->u[1], vdp_sol[j].(vdp_sol_times)), line_width=1, name="dx(t)/dt", showlegend=true*(j==1), mode="lines", line_color="orange"),
+        PlotlyJS.scatter(;x=vdp_sol_times, y=map(u->u[2], vdp_sol[j].(vdp_sol_times)), line_width=3, name="x(t)", showlegend=true*(j==1),mode="lines", line_color="steelblue")],
         Layout(;xaxis_title = "t", yaxis_range=[-7.0,7.0], title="μ=$(μ_range[j])")
         )
     for j in 1:length(μ_range)
@@ -171,7 +173,7 @@ With the solution at hand, we also plot the corresponding orbits, for two values
 ```julia:vanderpolphasesp
 plt_phsp = [
     PlotlyJS.Plot(
-        PlotlyJS.scatter(;x=map(x->x[1], vdp_sol[j].u), y=map(x->x[2], vdp_sol[j].u), line_width=2, name="(x(⋅),y(⋅))", showlegend=true*(j==1), mode="lines", line_color="steelblue"),
+        PlotlyJS.scatter(;x=map(u->u[1], vdp_sol[j].(vdp_sol_times)), y=map(u->u[2], vdp_sol[j].(vdp_sol_times)), line_width=2, name="(x(⋅),y(⋅))", showlegend=true*(j==1), mode="lines", line_color="steelblue"),
         Layout(;xaxis_title = "x", yaxis_title = "y", xaxis_range=[-7.0,7.0],yaxis_range=[-7.0,7.0], title="Phase portrait μ=$(μ_range[j])")
     )
     for j in (1:3:4)
@@ -269,6 +271,7 @@ plt_sos = PlotlyJS.plot(
 using PrettyTables
 
 formatter = (v,i,j) -> j == 1 ? Int(v) : round(v, digits=3)
+# pretty_table(hcat(Vdeg_range, bounds), ["degree" "bound"], header_crayon=crayon"yellow bold", formatters=formatter) # hide - - for VSCode or the REPL, instead of the following
 io = IOBuffer()
 pretty_table(io, hcat(Vdeg_range, bounds), ["degree" "bound"], backend=:html, standalone=false, formatters=formatter)
 println("~~~", String(take!(io)), "~~~")
@@ -287,20 +290,19 @@ xmesh = -4.2:0.02:4.2;
 ymesh = -10:0.05:10;
 xgrid = fill(1,length(ymesh))*xmesh';
 ygrid = ymesh*fill(1,length(xmesh))';
+Tmax = 50.0
+vdp_sol_times = 0.0:0.1:Tmax
 plt_composite = []
 for j=1:length(optim)
     V = optim[j][1]
     Vmin = minimum([value(V)(x,y) for x in xmesh for y in ymesh])
     v(x,y) = log(1 + value(V)(x,y) - Vmin)
-    nstart = div(length(vdp_sol),2)
-    vdp_sol_x = map(x->x[1], vdp_sol[end].u[nstart:end])
-    vdp_sol_y = map(x->x[2], vdp_sol[end].u[nstart:end])
-    vdp_sol_0 = 0.0*vdp_sol_x
-    vdp_sol_vxy = v.(vdp_sol_x,vdp_sol_y)
+    vdp_sol_x = map(u->u[1], vdp_sol[end].(vdp_sol_times))
+    vdp_sol_y = map(u->u[2], vdp_sol[end].(vdp_sol_times))
     vgrid = v.(xgrid,ygrid)
     tracesurf = PlotlyJS.scatter(;x=xgrid, y=ygrid, z = vgrid, type="surface", name="auxiliary function")
-    traceline0 = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=vdp_sol_0, line_width=4, line_color="orange", mode="lines", type="scatter3d", name="orbit")
-    tracelinevxy = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=vdp_sol_vxy, line_width=4, line_color="green", mode="lines", type="scatter3d", name="lifted orbit")
+    traceline0 = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=0.0*vdp_sol_x, line_width=4, line_color="orange", mode="lines", type="scatter3d", name="orbit")
+    tracelinevxy = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=v.(vdp_sol_x,vdp_sol_y), line_width=4, line_color="green", mode="lines", type="scatter3d", name="lifted orbit")
     push!(plt_composite, PlotlyJS.Plot([tracesurf,traceline0,tracelinevxy], Layout(;xaxis_title = "x", yaxis_title = "y", zaxis_title="z=ln(1+V-min(V))", legend_x=0.0, legend_y=1.0, title="Auxiliary function V=V(x,y) with degree m=$(Vdeg_range[j]) and bound $(round(bounds[j],digits=3))")))
 end
 nothing # hide - needed not to show anything with \show{vdpVaux}
