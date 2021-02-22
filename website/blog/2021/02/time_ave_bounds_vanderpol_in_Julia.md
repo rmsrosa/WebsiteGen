@@ -19,7 +19,7 @@ Here, the aim is to consider an example, namely the Van der Pol oscillator, and 
 
 This example is addressed in details in [Fantuzzi, Goluskin, Huang, and Chernyshenko (2016)](https://epubs.siam.org/doi/abs/10.1137/15M1053347). My main motivation is to visualize the auxiliary function that yields the optimal bound via SoS. That is the main reason to choose a two-dimensional system.
 
-That bound depends on the chosen degree $m$ for the auxiliary function appearing the SoS method. Here are the results for two values of $m$:
+That bound depends on the chosen degree $m$ for the auxiliary function appearing in the SoS method. Here are the results for two values of $m$:
 
 \textoutput{sosvdpVplotsb}
 
