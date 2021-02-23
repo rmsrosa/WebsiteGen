@@ -32,13 +32,13 @@ The [Van der Pol oscillator](https://en.wikipedia.org/wiki/Van_der_Pol_oscillato
 In its simplest, and nondimensional, form, the equation reads
 $$ {\displaystyle {d^{2}x \over dt^{2}} - \mu (1-x^{2}){dx \over dt}+x=0,}
 $$
-where $\mu>0$. This equation has the stationary solution $x(t)=0$, $\forall t\in \mathbb{R}$, and all other solutions converge to a limit cycle that oscillates around the origin. The form of the limit cycle and the convergence rate to the limit cycle changes according to the value of the parameter $\mu$.
+where $\mu>0$. This equation has the stationary solution $x(t)=0$, $\forall t\in \mathbb{R}$, and all other solutions converge to a limit cycle that oscillates around the origin. The form of the limit cycle and the convergence rate to the limit cycle change according to the value of the parameter $\mu$.
 
-Below you will find the dynamics of both $x=x(t)$ and its derivative $x'=dx(t)/dt$ for different values of $\mu$, and with the initial condition $x(0)=4.0$ and $x'(0)=6.0$. Notice that, for small $\mu$, the solution converges faster to the limit cycle, which is nearly a sinusoidal wave; while for large $\mu$, the solution converges slightly slower and the solution develops spikes, as if firing up some signal information (think neurons in biological applications).
+Below you will find the evolution of both $x=x(t)$ and its derivative $x'=dx(t)/dt$ for different values of $\mu$, and with the initial conditions $x(0)=4.0$ and $x'(0)=6.0$. Notice that, for small $\mu$, the solution converges faster to the limit cycle, which is nearly a sinusoidal wave; while for large $\mu$, the solution converges slightly slower and the solution develops spikes, as if firing up some signal information (think neurons in biological applications).
 
 \textoutput{vanderpolsolt}
 
-Another common representation of the dynamics of an autonomous system is that of phase portrait, in which we draw the orbit, or trajectory, in the phase space of the system. In this case, the phase space is $xy$, where $y=dx/dt$. We rewrite the second-order differential equation as a system of first order equations
+Another common representation of the dynamics of an autonomous system is that of a phase portrait, in which we draw the orbit, or trajectory, in the phase space of the system. In this case, the phase space is $xy$, where $y=dx/dt$. We rewrite the second-order differential equation as a system of first order equations
 $$ \label{vanderpolsystem}
 \begin{cases}
 x' = y, \\
@@ -83,7 +83,7 @@ We now estimate the upper bound via optimization. As we have seen in [Time avera
 $$ \label{optimprob}
   \sup \bar\phi \leq \inf\{C; \; (C,V)\in \mathbb{R}\times\mathrm{P}_m(X), \;C−ϕ−F⋅∇V = \texttt{SoS}\},
 $$
-where $\mathrm{P}_m(X)$ denotes the set of real polynomials on $X$ with degree at most $m$,and where, in this case, $X=\mathbb{R}^2$. We expect the bound to become sharper as we increase the degree $m$. Recall, as discussed in the previous post, the degree has to be even, otherwise it has no chance of being nonnegative.
+where $\mathrm{P}_m(X)$ denotes the set of real polynomials on $X$ with degree at most $m$, and where, in this case, $X=\mathbb{R}^2$. We expect the bound to become sharper as we increase the degree $m$. Recall, as discussed in the previous post, the degree has to be even, otherwise it has no chance of being nonnegative.
 
 Below is the result of the estimate, for some choices of $m$:
 
@@ -100,7 +100,7 @@ $$ C−ϕ−F⋅∇V = \texttt{SoS} \geq 0,
 $$
 we see that $C$ is smaller, the greater $-F\cdot\nabla V$, i.e. the "closer" $F$ points to $-\nabla V$, or, in other words, the faster the orbit descends along $V$, whenever possible.
 
-The best situation is in a gradient flow, but that is not always the case. It may not even be possible to have $F$ descend along $V$ all the time; just think of a periodic orbit, with a nontrivial auxiliary function $V$, such as in our case. Nevertheless, the longer the orbit descends along $V$, the better. With that in mind, observe the figures below. You can rotate and zoom the figure as you wish, to better observe the behavior of the limit cycle with respect to $V$. Notice how the condition just described improves as the degree of $V$ is allowed to increase.
+The best situation is in a gradient flow, but that is not always the case. It may not even be possible to have $F$ descend along $V$ all the time; just think of a periodic orbit, with a nontrivial auxiliary function $V$, such as in our case. Nevertheless, the longer the orbit descends along $V$, the better. With that in mind, observe the figures below. You can rotate, pan, and zoom the figure as you wish, to better observe the behavior of the limit cycle with respect to $V$. Notice how the condition just described improves as the degree of $V$ is allowed to increase.
 
 \textoutput{sosvdpVplots}
 
@@ -122,7 +122,7 @@ julia> @btime get_bound_vdp_sos($μ, $ϕ, 10)[2]
 5.0219594820626305
 ```
 
-For this simple system, with a globally attracting limit cycle (except for the unstable fixed point at the origin), in which we can take a single trajectory to estimate the upper bound, it is computationally more efficient to do the time integration. However, in situations in which there are many different basins of attractions and "hidden" attractors, a single trajectory will not be sufficient for a global bound, and a Monte Carlo Method, integrating over tens, maybe hundreds, of solutions, is necessary. In this case, computing a global bound via SoS might be more efficient. We will illustrate this situation in a future post.
+For this simple system, with a globally attracting limit cycle (except for the unstable fixed point at the origin), in which we can take a single trajectory to estimate the upper bound, it is computationally more efficient to do the time integration. However, in situations in which there are many different basins of attractions and "hidden" attractors, a single trajectory will not be sufficient for a global bound, and a Monte Carlo Method, integrating over tens, maybe hundreds, of solutions, is necessary. In this case, computing a global bound via SoS might be more efficient. We plan to illustrate this situation in a future post.
 
 ## Julia codes
 
@@ -218,14 +218,14 @@ plt_int = PlotlyJS.plot(
 fdplotly(json(plt_int), style="width:680px;height:350px") # hide - for Franklin
 ```
 
-For the optimization method, we use [jump-dev/SumOfSquares.jl](https://github.com/jump-dev/SumOfSquares.jl), which is the package for the Sum of Squares Programming. This is used in conjunction with [JuliaAlgebra/DynamicPolynomials.jl](https://github.com/JuliaAlgebra/DynamicPolynomials.jl), which defines a "dynamic polynomial" that works as an unknown polynomial looked upon for yielding a sum of squares form for the feasibility condition. For the SoS optimization method itself, we use the [ericphanson/SDPAFamily.jl](https://github.com/ericphanson/SDPAFamily.jl) which is an interface to several [SDPA](http://sdpa.sourceforge.net)-type optimization methods (SDPA standing for Semi-Definite Programming Algorithm). Such methods turn out to be the ones that work for the current problem (see [Fantuzzi, Goluskin, Huang, and Chernyshenko (2016)](https://epubs.siam.org/doi/abs/10.1137/15M1053347)).
+For the optimization method, we use [jump-dev/SumOfSquares.jl](https://github.com/jump-dev/SumOfSquares.jl), which is the package for the Sum of Squares Programming. This is used in conjunction with [JuliaAlgebra/DynamicPolynomials.jl](https://github.com/JuliaAlgebra/DynamicPolynomials.jl), which defines a "dynamic polynomial" that works as an unknown polynomial looked upon for yielding a sum of squares form for the feasibility condition. For the SoS optimization method itself, we use the [ericphanson/SDPAFamily.jl](https://github.com/ericphanson/SDPAFamily.jl) which is an interface to several [SDPA](http://sdpa.sourceforge.net)-type optimization methods (SDPA standing for Semi-Definite Programming Algorithm). Such methods turn out to be the ones that work for the current problem (see [Fantuzzi, Goluskin, Huang, and Chernyshenko (2016)](https://epubs.siam.org/doi/abs/10.1137/15M1053347), who used similar MATLAB toolboxes).
 
 ```julia:sosvdp
 using DynamicPolynomials
 using SumOfSquares
 using SDPAFamily
 
-function get_bound_vdp(μ, ϕ, Vdeg)
+function get_bound_vdp_sos(μ, ϕ, Vdeg)
     @polyvar x y
 
     f = [y, μ*(1 - x^2)*y - x]
@@ -255,7 +255,7 @@ end
 μ=4
 ϕ(u) = sum(u.^2)
 Vdeg_range = 4:2:10
-optim = [get_bound_vdp(μ, ϕ, Vdeg) for Vdeg in Vdeg_range]
+optim = [get_bound_vdp_sos(μ, ϕ, Vdeg) for Vdeg in Vdeg_range]
 
 bounds = [optim[j][end] for j in 1:length(optim)]
 
