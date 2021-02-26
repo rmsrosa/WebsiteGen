@@ -211,7 +211,7 @@ end
 
 plt_int = PlotlyJS.plot(
     PlotlyJS.scatter(;x=ϕ_times, y=ϕ_mean, line_width=2, name="ϕ_mean(T)", mode="lines", line_color="red"),
-    Layout(;yaxis_range=[0.0,8.0], xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
+    Layout(;yaxis_range=[4.0,8.0], xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
     )
 )
 
@@ -262,7 +262,7 @@ bounds = [optim[j][end] for j in 1:length(optim)]
 
 plt_sos = PlotlyJS.plot(
     PlotlyJS.scatter(;x=Vdeg_range[2:end], y=bounds[2:end], yaxis_log=true, line_width=2, name="bound", mode="lines+markers", line_color="green"),
-    Layout(;yaxis_range=[0.0,6.0], xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
+    Layout(;yaxis_range=[4.0,6.0], xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
     )
 )
 ```
