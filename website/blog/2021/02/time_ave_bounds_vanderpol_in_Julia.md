@@ -8,6 +8,7 @@
 @def rss = "Computing time average bounds for Van der Pol oscillator in Julia"
 @def rss_description = """We compute time-average bounds for the Van der Pol oscillator using both the time-evolution of the differential equation and convex minimization with Sum of Squares. We use the Julia language and the SciMl and Flux ecosystems."""
 @def hasplotly = true
+@def hascode = true
 
 {{ published }} | **{{ authors }}**
 
@@ -19,9 +20,9 @@ Here, the aim is to consider an example, namely the Van der Pol oscillator, and 
 
 This example is addressed in details in [Fantuzzi, Goluskin, Huang, and Chernyshenko (2016)](https://epubs.siam.org/doi/abs/10.1137/15M1053347). My main motivation is to visualize the auxiliary function that yields the optimal bound via SoS. That is the main reason to choose a two-dimensional system.
 
-That bound depends on the chosen degree $m$ for the auxiliary function appearing in the SoS method. Here are the results for two values of $m$:
+That bound depends on the chosen degree $m$ for the auxiliary function appearing in the SoS method. Here are the results for specific values of $m$:
 
-\textoutput{sosvdpVplotsb}
+\textoutput{sosvdpVplots}
 
 We discuss, below, the details leading to these result and how to appreciate the plots above. (Notice you can rotate, pan and zoom the previous and subsequent images!)
 
@@ -95,14 +96,14 @@ Here is a corresponding plot, but skipping $m=4$, for scaling reasons:
 
 ## Visualizing the auxiliary function
 
-Now we get to the point of visualizing the auxiliary function obtained for each degree. Looking at \eqref{optimprob} and its feasibility condition
+Looking at \eqref{optimprob} and its feasibility condition
 $$ C−ϕ−F⋅∇V = \texttt{SoS} \geq 0,
 $$
-we see that $C$ is smaller, the greater $-F\cdot\nabla V$, i.e. the "closer" $F$ points to $-\nabla V$, or, in other words, the faster the orbit descends along $V$, whenever possible.
+we see that $C$ is smaller, the greater the term $-F\cdot\nabla V$, i.e. the "closer" $F$ points to $-\nabla V$, or, in other words, the faster the orbit descends along $V$, whenever possible.
 
-The best situation is in a gradient flow, but that is not always the case. It may not even be possible to have $F$ descend along $V$ all the time; just think of a periodic orbit, with a nontrivial auxiliary function $V$, such as in our case. Nevertheless, the longer the orbit descends along $V$, the better. With that in mind, observe the figures below. You can rotate, pan, and zoom the figure as you wish, to better observe the behavior of the limit cycle with respect to $V$. Notice how the condition just described improves as the degree of $V$ is allowed to increase.
+The best situation is in a gradient flow, but that is not always the case. It may not even be possible to have $F$ descend along $V$ all the time; just think of a periodic orbit, with a nontrivial auxiliary function $V$, such as in our case. Nevertheless, the longer the orbit descends along $V$, the better.
 
-\textoutput{sosvdpVplots}
+With that in mind, you may go back to the visualizations of the auxiliary function given in the beginning of the post. Notice how the condition just described (of the orbit to attempt to descend along the optimal $V$) improves as the degree of $V$ is allowed to increase. You can rotate, pan, and zoom the figures as you wish, to better observe this behavior of the limit cycle with respect to $V$.
 
 ## Computation comparison
 
@@ -210,7 +211,7 @@ end
 
 plt_int = PlotlyJS.plot(
     PlotlyJS.scatter(;x=ϕ_times, y=ϕ_mean, line_width=2, name="ϕ_mean(T)", mode="lines", line_color="red"),
-    Layout(;xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
+    Layout(;yaxis_range=[0.0,8.0], xaxis_title = "T", yaxis_title = "x²+y²", title="Evolution of the time average ϕᵤ(T) = (1/T)∫₀ᵀ ‖u(t)‖² dt;\nbound Φ̄ ≤ $(round(ϕ_mean[end],digits=3))"
     )
 )
 
@@ -261,7 +262,7 @@ bounds = [optim[j][end] for j in 1:length(optim)]
 
 plt_sos = PlotlyJS.plot(
     PlotlyJS.scatter(;x=Vdeg_range[2:end], y=bounds[2:end], yaxis_log=true, line_width=2, name="bound", mode="lines+markers", line_color="green"),
-    Layout(;xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
+    Layout(;yaxis_range=[0.0,6.0], xaxis_title = "degree of auxiliary polynomial V", yaxis_title = "bound", title="Bounds on Φ̄ for different degrees for V"
     )
 )
 ```
@@ -286,14 +287,14 @@ fdplotly(json(plt_sos), style="width:680px;height:350px") # hide - for Franklin
 The visualization of the auxiliary function and the corresponding orbits (both in the $xy$ plane and lifted to the auxiliary function) is done as follows.
 
 ```julia:vdpVaux
-xmesh = -4.2:0.02:4.2;
-ymesh = -10:0.05:10;
-xgrid = fill(1,length(ymesh))*xmesh';
-ygrid = ymesh*fill(1,length(xmesh))';
 Tmax = 50.0
-vdp_sol_times = 0.0:0.1:Tmax
+vdp_sol_times = 0.0:0.01:Tmax
 plt_composite = []
 for j=1:length(optim)
+    xmesh = -4.2:0.2/j:4.2;
+    ymesh = -10:0.2/(j+2):10;
+    xgrid = fill(1,length(ymesh))*xmesh';
+    ygrid = ymesh*fill(1,length(xmesh))';
     V = optim[j][1]
     Vmin = minimum([value(V)(x,y) for x in xmesh for y in ymesh])
     v(x,y) = log(1 + value(V)(x,y) - Vmin)
@@ -301,8 +302,8 @@ for j=1:length(optim)
     vdp_sol_y = map(u->u[2], vdp_sol[end].(vdp_sol_times))
     vgrid = v.(xgrid,ygrid)
     tracesurf = PlotlyJS.scatter(;x=xgrid, y=ygrid, z = vgrid, type="surface", name="auxiliary function")
-    traceline0 = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=0.0*vdp_sol_x, line_width=4, line_color="orange", mode="lines", type="scatter3d", name="orbit")
-    tracelinevxy = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=v.(vdp_sol_x,vdp_sol_y), line_width=4, line_color="green", mode="lines", type="scatter3d", name="lifted orbit")
+    traceline0 = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=0.0*vdp_sol_x, line_width=6, line_color="orange", mode="lines", type="scatter3d", name="orbit")
+    tracelinevxy = PlotlyJS.scatter(;x=vdp_sol_x, y=vdp_sol_y, z=v.(vdp_sol_x,vdp_sol_y), line_width=6, line_color="green", mode="lines", type="scatter3d", name="lifted orbit")
     push!(plt_composite, PlotlyJS.Plot([tracesurf,traceline0,tracelinevxy], Layout(;xaxis_title = "x", yaxis_title = "y", zaxis_title="z=ln(1+V-min(V))", legend_x=0.0, legend_y=1.0, title="Auxiliary function V=V(x,y) with degree m=$(Vdeg_range[j]) and bound $(round(bounds[j],digits=3))")))
 end
 nothing # hide - needed not to show anything with \show{vdpVaux}
@@ -316,12 +317,6 @@ for j=1:length(plt_composite)
     # display(plt_composite[j]) # hide - for VSCode or the REPL 
     fdplotly(json(plt_composite[j]), style="width:680px;height:350px") # hide - for Franklin
 end
-```
-
-```julia:sosvdpVplotsb
-#hideall
-fdplotly(json(plt_composite[1]), style="width:680px;height:350px") # hide - for Franklin
-fdplotly(json(plt_composite[end]), style="width:680px;height:350px") # hide - for Franklin
 ```
 
 ## Acknowledgements
