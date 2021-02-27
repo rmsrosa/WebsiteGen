@@ -10,7 +10,6 @@
 @def hasplotly = true
 @def hascode = true
 @def hasmath = true
-@def reeval = true
 
 {{ published }} | **{{ authors }}**
 
@@ -315,7 +314,7 @@ nothing # hide - needed not to show anything with \show{vdpVaux}
 
 ```julia:sosvdpVplots
 #hideall
-for j=1:length(plt_composite)
+for j=(1,2,4)
     # display(plt_composite[j]) # hide - for VSCode or the REPL 
     fdplotly(json(plt_composite[j]), style="width:680px;height:350px") # hide - for Franklin
 end
@@ -323,8 +322,7 @@ end
 
 ## Acknowledgements
 
-There are many people to thank for, in getting to this point, but I specifically want to
-thank [Chris Rackauckas](http://www.chrisrackauckas.com), for pointing me to use [JuliaMath/QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl); [Eric Hanson](https://ericphanson.com), for helping me in using his package [ericphanson/SDPAFamily](https://github.com/ericphanson/SDPAFamily.jl); and [Thibaut Lienart](https://tlienart.github.io) for helping me with many of the features in his package [tlienart/Franklin.jl](https://github.com/tlienart/Franklin.jl).
+There are many people to thank for, in getting to this point, but I specifically want to thank [Chris Rackauckas](http://www.chrisrackauckas.com), for pointing me to use [JuliaMath/QuadGK.jl](https://github.com/JuliaMath/QuadGK.jl); [Eric Hanson](https://ericphanson.com), for helping me in using his package [ericphanson/SDPAFamily](https://github.com/ericphanson/SDPAFamily.jl); and [Thibaut Lienart](https://tlienart.github.io) for helping me with many of the features in his package [tlienart/Franklin.jl](https://github.com/tlienart/Franklin.jl).
 
 ## References
 
