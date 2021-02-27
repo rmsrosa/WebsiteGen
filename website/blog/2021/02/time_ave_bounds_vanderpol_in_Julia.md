@@ -9,6 +9,8 @@
 @def rss_description = """We compute time-average bounds for the Van der Pol oscillator using both the time-evolution of the differential equation and convex minimization with Sum of Squares. We use the Julia language and the SciMl and Flux ecosystems."""
 @def hasplotly = true
 @def hascode = true
+@def hasmath = true
+@def reeval = true
 
 {{ published }} | **{{ authors }}**
 
