@@ -115,6 +115,6 @@ function hfun_fullcodedownload()
         open(f->write(f, "\n\n# Code snippet: $(split(jlfile,'/')[end])\n"), fullcodepath, "a")
         run(pipeline(`cat $jlfile`, stdout=open(fullcodepath,"a")))
     end
-    html_str = """<a href="$(fullcodepath[7:end])" download="$(split(mdpath,'/')[end]).jl">&#11015; Download the full julia code <img src="/assets/img/juliarocker.gif" alt="julia rocker" width="25" height="20"></a>"""
+    html_str = """<a href="$(fullcodepath[7:end])" download="$(split(mdpath,'/')[end]).jl">&#11015; Download the full julia code <img src="/assets/img/juliafullrocker.gif" alt="julia rocker" width="16"></a>"""
     return html_str
 end
