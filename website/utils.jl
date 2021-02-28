@@ -103,15 +103,15 @@ function hfun_fullcodedownload()
     mdpath = mdfile[1:end-3]
     codepath = joinpath("__site", "assets", mdpath, "code")
     fullcodepath = joinpath(codepath,"full_code.jl")
-    regex = r"^```julia:(.*)$"
-    jlfiles = map(m -> joinpath(codepath,(m[1])*".jl"), match.(regex, filter(l -> occursin(regex,l), readlines(mdfile))))
+    regex = r"```julia:(.*)"
     header = """
 # Title: $(locvar(:title))
 # Publication date: $(locvar(:published))
 # Last modified: $(locvar(:fd_mtime))
 # Code from https://rmsrosa.github.io/$mdpath/"""
     open(f->write(f, header), fullcodepath, "w")
-    for jlfile in jlfiles
+    for m in eachmatch(regex, read(mdfile, String))
+        jlfile = joinpath(codepath,(m[1])*".jl")
         open(f->write(f, "\n\n# Code snippet: $(split(jlfile,'/')[end])\n"), fullcodepath, "a")
         run(pipeline(`cat $jlfile`, stdout=open(fullcodepath,"a")))
     end
