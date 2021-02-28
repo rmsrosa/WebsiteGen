@@ -128,7 +128,9 @@ For this simple system, with a globally attracting limit cycle (except for the u
 
 ## Julia codes
 
-We present, below, the codes used in this post. We use [The Julia Programming Language](https://julialang.org) for the numerical computations. For the interactive plots, we use [plotly/PlotlyJS.jl](https://github.com/JuliaPlots/PlotlyJS.jl), which is Julia's interface to the [plotly.js](https://plot.ly/javascript) visualization library.
+We present, below, the codes used in this post. You may download the full code with the Download button at the end.
+
+We use [The Julia Programming Language](https://julialang.org) for the numerical computations. For the interactive plots, we use [plotly/PlotlyJS.jl](https://github.com/JuliaPlots/PlotlyJS.jl), which is Julia's interface to the [plotly.js](https://plot.ly/javascript) visualization library.
 
 For solving the differential equation, we use the [SciML/DifferentialEquations.jl](https://github.com/SciML/DifferentialEquations.jl) package. The following snippet of code is used to solve the system of equations and plot the solutions over time.
 
@@ -319,6 +321,8 @@ for j=(1,2,4)
     fdplotly(json(plt_composite[j]), style="width:680px;height:350px") # hide - for Franklin
 end
 ```
+
+{{ fullcodedownload }}
 
 ## Acknowledgements
 
