@@ -7,6 +7,17 @@
 
 ## Graduação
 
+### 2020/2: Modelagem Matemática
+
+* **Informações:**
+
+  * Aos alunos que se inscreveram no curso, peço que preencham o [Formulário inicial de Modelagem Matemática 2020/2](https://docs.google.com/forms/d/e/1FAIpQLSdVF3TdMboK-a080Z6N9qY9MlgZo2uCePoi-JhE4l7pMVYAXg/viewform).
+  * O conteúdo da matéria será disponibilizado em um repositório do github: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2020p2](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2020p2).
+  * A parte computacional será desenvolvida na linguagem de programação [Julia](https://julialang.org) e poderá ser feita remotamente (na nuvem, em servidores no [binder](https://mybinder.org) e na [AWS/EC2]()) ou localmente, em suas máquinas.
+  * Para a avaliação, devemos ter testes frequentes, mini-projetos, apresentações e um projeto final.
+  * Nossas aulas estão reservadas para as terças e quintas, de 13h às 15h, mas ainda falta definir como utilizaremos isso levando-se em consideração a divisão entre atividades síncronas e assíncronas.
+  * Não teremos encontro síncrono na semana de 22 a 26 de março devido à Jornada de Iniciação Científicia, Tecnológica, Artística e Cultural (JICTAC 2020), mas pretendo já começar a divulgar um material inicial nessa semana.
+
 ### 2020/1: Equações Diferenciais
 
 * **Informações:**

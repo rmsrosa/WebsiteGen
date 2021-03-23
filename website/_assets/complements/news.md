@@ -1,5 +1,9 @@
 {{ if pt_lang }}
 
+### ⟩⟩⟩ **Modelagem Matemática**
+
+Veja aqui [informações preliminares sobre a disciplina de Modelagem Matemática](/pages/ensino/#20202_modelagem_matemática).
+
 ### ⟩⟩⟩ **Novo post no blog**
 
 Neste novo artigo [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), eu continuou a discussão iniciada no artigo anterior, ilustrando a teoria com o oscilador de Van der Pol. É interessante examinar o comportamento do ciclo limite ao longo da superfície da função auxiliar que minimiza a estimativa da média temporal.
