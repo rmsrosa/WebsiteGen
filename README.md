@@ -21,7 +21,13 @@ Then, I modified the original `css` files and added the desired contents.
 For a live local preview of the page, serve it from the `website/` folder with
 
 ```julia
-serve()
+pkg> activate .
+
+julia> using Franklin
+
+julia> cd("website/")
+
+julia> serve()
 ```
 
 This generates the static website, under `__site`, and opens up the default browser with the locally generated site. Any changes made in the source files are automatically reflected in the generated site.
