@@ -1,8 +1,8 @@
+{{ if pt_lang }}
+
 #### ⟩⟩⟩ **[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl)**
 
-[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl) is my first registered [Julia](https://www.julialang.org) package! It is a supplemental package for [Unitful.jl](https://github.com/PainterQubits/Unitful.jl). The aim of `UnitfulBuckinghamPi.jl` is to *solve for the adimensional Pi groups in a list of Unitful parameters, according to the Buckingham-Pi Theorem*.
-
-{{ if pt_lang }}
+[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl) é o meu primeiro pacote [Julia](https://www.julialang.org) registrado! O seu objetivo é extrair os grupos adimensionais de uma lista de parâmetros. Os parâmetros devem ser definidos como quantidades, unidades ou dimensões do pacote [Unitful.jl](https://github.com/PainterQubits/Unitful.jl). Veja mais informações no blog, artigo [Buckingham-Pi Theorem and the UnitfulBuckinghamPi.jl package](/blog/2021/05/unitfulbuckinghampi/).
 
 #### ⟩⟩⟩ **Modelagem Matemática**
 
@@ -10,8 +10,13 @@ Veja aqui [informações sobre a disciplina de Modelagem Matemática](/pages/ens
 
 #### ⟩⟩⟩ **Novo artigo no blog**
 
-Neste novo artigo [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), eu continuou a discussão iniciada no artigo anterior, ilustrando a teoria com o oscilador de Van der Pol. É interessante examinar o comportamento do ciclo limite ao longo da superfície da função auxiliar que minimiza a estimativa da média temporal.
+Neste novo artigo [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), continuo a discussão iniciada no artigo anterior, ilustrando a teoria com o oscilador de Van der Pol. É interessante examinar o comportamento do ciclo limite ao longo da superfície da função auxiliar que minimiza a estimativa da média temporal.
 {{ else }}
+
+
+#### ⟩⟩⟩ **[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl)**
+
+[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl) is my first registered [Julia](https://www.julialang.org) package! It is based on the package [Unitful.jl](https://github.com/PainterQubits/Unitful.jl). The aim of `UnitfulBuckinghamPi.jl` is to *solve for the adimensional Pi groups in a list of Unitful parameters, according to the Buckingham-Pi Theorem*. More information in the blog post [Buckingham-Pi Theorem and the UnitfulBuckinghamPi.jl package](/blog/2021/05/unitfulbuckinghampi/).
 
 #### ⟩⟩⟩ **New blog post**
 
