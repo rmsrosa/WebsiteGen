@@ -7,6 +7,31 @@
 
 ## Graduação
 
+### 2021/1: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 12 de julho a 23 de outubro.
+  * **Local:** Google Classroom, Google Meet e YouTube.
+  * **Acesso:** Todos os alunos devem preencher o [Formulário inicial de ED 2021/1](https://docs.google.com/forms/d/e/1FAIpQLScjtlEHR0efLQBHaOpSgGGFRrEOWvxkp5I-udLuhFwfXMiMsQ/viewform) para terem acesso à turma da disciplina no Google Classroom e para serem convidados para os encontros síncronos.
+  * **Primeira semana:** O nosso primeiro encontro será na quinta-feira, dia 15 de julho, através do Google Meet, em *link* a ser disponibilizado oportunamente.
+  * **Carga assíncrona:** Vídeo-aulas disponibilizadas semanalmente em canal do YouTube, acessíveis através de links no Google Classroom, assim como a leitura das notas de aula.
+  * **Carga síncrona:** Uma vez por semana, de 10h às 12h, na terça ou na quinta, via Google Meet, com link disponiblizado pelo Google Classroom ou enviado por convite, com o principal intuito de esclarecer dúvidas surgidas a partir do texto e dos vídeos discutidos na semana.
+  * **Notas de aula:** [Equações Diferenciais versão 2017/1](/assets/material/apostila-ed-maio2017.pdf)
+  * **Avaliação:** Atividades semanais pelo Google Classroom e eventuais testes síncronos.
+
+### 2021/1: Modelagem Matemática
+
+* **Informações:**
+
+  * **Período letivo:** 12 de julho a 23 de outubro.
+  * **Acesso:** Aos alunos que se inscreveram no curso, peço que preencham o [Formulário inicial de Modelagem Matemática 2021/1](https://docs.google.com/forms/d/e/1FAIpQLScGWLu9p7iuH08T5xEg-Q8uYD9r3_6qVagb3ebWEsIdJW2DNg/viewform).
+  * **Primeira semana:** O nosso primeiro encontro será na terça-feira, dia 13 de julho, através do Google Meet, em *link* a ser disponibilizado oportunamente.
+  * **Carga didática:** Nossas aulas estão reservadas para as terças e quintas, de 13h às 15h, que serão utilizadas de forma apropriada levando-se em consideração a divisão entre atividades síncronas e assíncronas.
+  * **Material:** O conteúdo da matéria será disponibilizado, ao longo do curso, em um repositório do github: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2021p1](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2021p1).
+  * **Ferramentas computacionais:** A parte computacional será desenvolvida na linguagem de programação [Julia](https://julialang.org) e poderá ser feita remotamente (na nuvem, em servidores no [binder](https://mybinder.org)) ou localmente, em suas máquinas.
+  * **Avaliação:** Para a avaliação, devemos ter testes, mini-projetos, apresentações e um projeto final.
+
 ### 2020/2: Modelagem Matemática
 
 * **Informações:**
