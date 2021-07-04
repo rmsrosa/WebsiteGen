@@ -113,6 +113,8 @@ One can think of $\log[\ell], \log[g], \log[m], \log[\tau]$, and $\log[\theta]$ 
 
 The matrix whose rows are composed of the representation of those vectors in this basis is our "parameter-to-dimension" matrix.
 
+*Note, however, that this log-log relation is an informal way of addressing the powers of the dimensions involved in a dimensional group. The logarithm is, in principle, only defined for nondimensional quantities. We can very well arrive at the results below by working directly with the powers.*
+
 Now, the Buckingham-Pi Theorem states that
 
 > **Theorem (Buckingham-Pi)** Consider a system with $n$ quantities in which $m$ fundamental (base) dimensions are involved. Then, there are $n-m$ adimensional groups which can be expressed as monomials of the given quantities.
