@@ -1,5 +1,9 @@
 {{ if pt_lang }}
 
+#### ⟩⟩⟩ **Cálculo Infinitesimal II 2021/2**
+
+Veja aqui [informações sobre a disciplina de Cálculo Infinitesimal II, período 2021/2](/pages/ensino/#20212_cálculo_infinitesimal_ii).
+
 #### ⟩⟩⟩ **Equações Diferenciais 2021/1**
 
 Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2021/1](/pages/ensino/#20211_equações_diferenciais).
