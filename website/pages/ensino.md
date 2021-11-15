@@ -14,7 +14,6 @@
   * **Período letivo:** 16 de novembro a 12 de março.
   * **Local:** Google Classroom, Google Meet, YouTube e possivelmente presencialmente, dependendo das condições.
   * **Acesso:** Todos os alunos devem preencher o [Formulário inicial de Cálculo Infinitesimal II 2021/2](https://docs.google.com/forms/d/e/1FAIpQLScD7K1-8WEWdaapWcdRJxMhlpH6uY7SEfaeWRRW7VMM_94JAA/viewform) para terem acesso à turma da disciplina no Google Classroom e para serem convidados para os encontros síncronos.
-  * **Primeira semana:** O nosso primeiro encontro será na sexta-feira, dia 18 de novembro, através do Google Meet, em *link* a ser disponibilizado pelo Google Classroom.
 
 ### 2021/1: Equações Diferenciais
 
