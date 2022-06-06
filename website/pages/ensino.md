@@ -7,6 +7,24 @@
 
 ## Graduação
 
+### 2022/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
+
+* **Informações:**
+
+  * **Período letivo:** 11 de abril a 6 de agosto.
+  * **Material:** O conteúdo da matéria será disponibilizado, ao longo do curso, em um repositório do github: [github.com/rmsrosa/notas_sde](https://github.com/rmsrosa/notas_sde) / [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/). Uma página no Google Classroom também será aberta para a comunição com a turma.
+  * **Ferramentas computacionais:** A parte computacional será desenvolvida na linguagem de programação [Julia](https://julialang.org) e poderá ser feita remotamente (na nuvem, em servidores no [binder](https://mybinder.org)) ou localmente, em suas máquinas.
+  * **Avaliação:** Para a avaliação, devemos ter testes, projetos e apresentações.
+
+### 2022/1: Modelagem Matemática
+
+* **Informações:**
+
+  * **Período letivo:** 11 de abril a 6 de agosto.
+  * **Material:** O conteúdo da matéria será disponibilizado, ao longo do curso, em um repositório do github: [github.com/rmsrosa/modelagem_matematica/tree/ModMat2022p1](https://github.com/rmsrosa/modelagem_matematica/tree/modmat2022p1) e [rmsrosa.github.io/modelagem_matematica](https://rmsrosa.github.io/modelagem_matematica/). Uma página no Google Classroom também será aberta para a comunição com a turma.
+  * **Ferramentas computacionais:** A parte computacional será desenvolvida na linguagem de programação [Julia](https://julialang.org) e poderá ser feita remotamente (na nuvem, em servidores no [binder](https://mybinder.org)) ou localmente, em suas máquinas.
+  * **Avaliação:** Para a avaliação, devemos ter testes, mini-projetos, apresentações e um projeto final.
+
 ### 2021/2: Cálculo Infinitesimal II
 
 * **Informações:**

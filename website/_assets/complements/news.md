@@ -1,5 +1,17 @@
 {{ if pt_lang }}
 
+#### ⟩⟩⟩ Pacote **[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl)**
+
+[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl) é um pacote para exibir a topologia de uma rede neural construída pelo pacote [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl). O pacote amadureceu o suficiente para ser registrado e já conta com mais de 25 estrelas no github. Mas ainda está em desenvolvimento, com muitas melhorias a serem implementadas.
+
+#### ⟩⟩⟩ **Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias 2022/1**
+
+Veja aqui [informações sobre essa disciplina, período 2022/1](/pages/ensino/#20221_aspectos_teóricos_e_numéricos_de_equações_diferenciais_estocásticas_e_aleatórias)
+
+#### ⟩⟩⟩ **Modelagem Matemática 2022/1**
+
+Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2022/1](/pages/ensino/#20221_modelagem_matemática).
+
 #### ⟩⟩⟩ **Cálculo Infinitesimal II 2021/2**
 
 Veja aqui [informações sobre a disciplina de Cálculo Infinitesimal II, período 2021/2](/pages/ensino/#20212_cálculo_infinitesimal_ii).
@@ -23,7 +35,12 @@ Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2
 #### ⟩⟩⟩ **Novo artigo no blog**
 
 Neste novo artigo [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), continuo a discussão iniciada no artigo anterior, ilustrando a teoria com o oscilador de Van der Pol. É interessante examinar o comportamento do ciclo limite ao longo da superfície da função auxiliar que minimiza a estimativa da média temporal.
+
 {{ else }}
+
+#### ⟩⟩⟩ **[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl)**
+
+[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl) is my latest registered package. Its purpose is to display the topology of neural networks built with [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl).
 
 #### ⟩⟩⟩ **[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl) Package**
 

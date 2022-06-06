@@ -9,11 +9,13 @@
 
 * Calculus of one and several variables
 
-* Linear Algebra
+* Linear algebra
 
 * Differential equations
 
-* Mathematical Modelling
+* Mathematical modeling
+
+* Stochastic equations
 
 ## Graduate courses
 

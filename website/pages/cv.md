@@ -139,6 +139,10 @@
 
 11. [IV Workshop on Fluids and PDE](https://impa.br/sobre/memoria/reunioes-cientificas/iv-workshop-em-fluidos-e-edp/) (IMPA, Rio de Janeiro, 26 a 30 de maio de 2014 - Membro do Comitê Científico)
 
+12. [V Workshop on Fluids and PDE](https://www.ime.unicamp.br/~vwfpde/) (IMECC/Unicamp, Campinas, 20 de setembro a 1 de outubro de 2021 - Membro do Comitê Científico)
+
+13. [SciMLCon 2022](https://scimlcon.org/2022/) (Conferência virtual, 23 de março de 2022 - Membro do Comitê Organizador)
+
 ## Extensão
 
 * [![Cartaz](/assets/img/Pintcartaz_small.png)](/assets/img/Pintcartaz.png) Em 16 de maio de 2018, participei do Festival [Pint of Science Brasil](https://pintofscience.com.br/). O Festival engloba eventos de divulgação científica em bares e restaurantes em diversas cidades do Brasil. Esta é a versão nacional do [Pint of Science](https://pintofscience.com/), realizado em cidades de diversos países. O Festival ocorre anualmente, sempre no mês de maio. A minha participação foi em uma mesa redonda com o Prof. Marcelo Viana (IMPA) e teve como tema *"Dois chopes e senta que lá vem história: como a matemática está por trás da ciência e da arte da boa cerveja"*.
