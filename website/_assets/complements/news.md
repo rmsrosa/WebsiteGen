@@ -1,5 +1,9 @@
 {{ if pt_lang }}
 
+#### ⟩⟩⟩ Publicado artigo sobre estimativas ótimas em volume especial homenageando Ciprian Foias
+
+Meu artigo mais recente ([*"Optimal minimax bounds for time and ensemble averages for the incompressible Navier-Stokes equations"*](http://yokohamapublishers.jp/online2/oppafa/vol7/p327.html)), de co-autoria com [Roger Temam](https://math.indiana.edu/about/faculty/temam-roger.html), foi publicado na revista [Pure and Applied Functional Analysis](http://yokohamapublishers.jp/pafa.html), em um [volume especial](http://www.yokohamapublishers.jp/online2/pafav7n1.html) em homenagem póstuma a [Ciprian Foias](https://www.richardsonfuneralhome.org/obituary/Ciprian-Foias).
+
 #### ⟩⟩⟩ Pacote **[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl)**
 
 [ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl) é um pacote para exibir a topologia de uma rede neural construída pelo pacote [FluxML/Flux.jl](https://github.com/FluxML/Flux.jl). O pacote amadureceu o suficiente para ser registrado e já conta com mais de 25 estrelas no github. Mas ainda está em desenvolvimento, com muitas melhorias a serem implementadas.
@@ -37,6 +41,14 @@ Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2
 Neste novo artigo [Computing time average bounds for the Van der Pol oscillator in Julia](/blog/2021/02/time_ave_bounds_vanderpol_in_Julia/), continuo a discussão iniciada no artigo anterior, ilustrando a teoria com o oscilador de Van der Pol. É interessante examinar o comportamento do ciclo limite ao longo da superfície da função auxiliar que minimiza a estimativa da média temporal.
 
 {{ else }}
+
+#### ⟩⟩⟩ Article on optimal estimates for the Navier-Stokes equations publised in a special volume in honnor of Ciprian Foias
+
+My most recent article ([*"Optimal minimax bounds for time and ensemble averages for the incompressible Navier-Stokes equations"*](http://yokohamapublishers.jp/online2/oppafa/vol7/p327.html)), co-authored with [Roger Temam](https://math.indiana.edu/about/faculty/temam-roger.html), was published in [Pure and Applied Functional Analysis](http://yokohamapublishers.jp/pafa.html), in a [special volume](http://www.yokohamapublishers.jp/online2/pafav7n1.html) in honnor of [Ciprian Foias](https://www.richardsonfuneralhome.org/obituary/Ciprian-Foias).
+
+### ⟩⟩⟩ Stochastic and random ordinary differential equations
+
+Just started teaching a course on theoretical and numerical aspects of stochastic and random ordinary differential equations. First time teaching it. It is gonna be a fun ride. Lecture notes in Portuguese availabe on [rmsrosa.github.io/notas_sde](https://rmsrosa.github.io/notas_sde/).
 
 #### ⟩⟩⟩ **[ChainPlots.jl](https://github.com/rmsrosa/ChainPlots.jl)**
 

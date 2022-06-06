@@ -89,6 +89,10 @@
 
 ### Atuais
 
+* Membro do [Comitê Editorial da Coleção Matemática Aplicada da SBM](https://sbm.org.br/comites-editoriais/).
+
+* Representante no Colegiado do [Programa de Pós-Graduação em Matemática](http://www.pgmat.im.ufrj.br/) do IM-UFRJ (2005 a 2012; 2016 a 2020; 2022 até o presente)
+
 * Participação em bancas de progressão funcional, estágio docente e concursos públicos
 
 * Referee de revistas especializadas, como *Journal of Differential Equations*, *Discrete and Continuous Dynamical Systems*, *Indiana University Math Journal*, *SIAM Journal of Mathematical Analysis*, *SIAM Journal of Numerical Analysis*, *Journal of Mathematical Analysis and its Applications*, *Physica D*, *Nonlinear Analysis TMA*, etc.
@@ -104,8 +108,6 @@
 * Membro do Comitê de Área (Matemática/Probabilidade e Estatística) da [CAPES](http://www.capes.gov.br) (triênio 2008 a 2010)
 
 * Representante do CCMN no [Comitê Institucional do PIBIC/UFRJ](http://www.pr2.ufrj.br/) (2004 a março de 2011)
-
-* Representante no Colegiado do [Programa de Pós-Graduação em Matemática](http://www.pgmat.im.ufrj.br/) do IM-UFRJ (2005 a 2012 e 2016 a 2020)
 
 * Coordenador do [Programa de Pós-Graduação em Matemática Aplicada](http://www.dma.im.ufrj.br/mestrado/) (2001 a 2007)
 
