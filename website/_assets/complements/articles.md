@@ -1,4 +1,6 @@
 
+1. Rosa, Ricardo M. S.; Temam, Roger M. Optimal minimax bounds for time and ensemble averages for the incompressible Navier-Stokes equations. Pure Appl. Funct. Anal. 7 (2022), no. 1, 327--355. ([MR4396263](http://www.ams.org/mathscinet-getitem?mr=MR4396263))
+
 1. Foias, Ciprian; Rosa, Ricardo M. S.; Temam, Roger M.; Properties of stationary statistical solutions of the three-dimensional Navier-Stokes equations, J. Dynam. Differential Equations, 31 (2019), no. 3, 1689--1741. ([DOI:10.1007/s10884-018-9719-2](https://doi.org/10.1007/s10884-018-9719-2))
 
 1. Cipolatti, R. A.; Liu, I.-S.; Palermo, L. A.; Rincon, M. A.; Rosa, R. M. S.; On the existence, uniqueness and regularity of solutions of a viscoelastic Stokes problem modelling salt rocks, Appl. Math. Optim., 78 (2018), no. 2, 403--456. ([DOI:10.1007/s00245-017-9411-7](https://doi.org/10.1007/s00245-017-9411-7))

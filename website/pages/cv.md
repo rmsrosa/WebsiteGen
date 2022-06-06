@@ -13,7 +13,7 @@
 
 * [Página no MathSciNet (acesso parcialmente restrito)](https://mathscinet.ams.org/mathscinet/MRAuthorID/366407)
 
-* [AMS MR Lookup (publicações mais recentes indexadas pela AMS-MR)](https://mathscinet.ams.org/mrlookup?s3=rosa,+r*&format=mrcit&Search=Search)
+* [AMS MR Lookup (publicações mais recentes indexadas pela AMS-MR)](https://mathscinet.ams.org/mrlookup?s3=rosa,+ricardo&format=mrcit&Search=Search)
 
 * [Página no Mathematics Genealogy Project](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=37322)
 
