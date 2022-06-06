@@ -39,7 +39,7 @@
 
 ### Fellowships
 
-* CNPq Research Fellowship, level 1D, since August 2003
+* CNPq Research Fellowship, level 1D, 2003 to 2022
 
 * CNPq Research Fellowship, level 2A, Aug/2001 to Jul/2003
 
@@ -59,7 +59,9 @@
 
 ### Grants
 
-* Research grant from CNPq as part of the research fellowship - Since August 2003 (R\$1,000.00 per month)
+* Scientific Visit to [IPAM/UCLA](http://www.ipam.ucla.edu) to participate, as a *Senior Fellow* in the [Mathematics of Turbulence](http://www.ipam.ucla.edu/programs/long-programs/mathematics-of-turbulence/) thematic program, from September 8 to December 12, 2014
+
+* Research grant from CNPq as part of the research fellowship - From August 2003 to February 2022 (R\$1,000.00 per month)
 
 * Scientific visit to the Université de Paris-Sud, Orsay, France - French-Brasil Cooperation, CNRS-CNPq - March 18 to May 17, 2002
 

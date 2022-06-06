@@ -39,7 +39,7 @@
 
 ### Bolsas de pesquisa
 
-* Bolsa de Produtividade em Pesquisa, nível 1, pelo CNPq, ago/2003 até o momento
+* Bolsa de Produtividade em Pesquisa, nível 1, pelo CNPq, ago/2003 até fev/2022
 
 * Bolsa de Produtividade em Pesquisa, nível 2B, pelo CNPq, ago/2001 a jul/2003
 
@@ -59,7 +59,9 @@
 
 ### Auxílios Financeiros
 
-* *Grant* de pesquisa associado à bolsa de produtividade em pesquisa do CNPq, nível 1D, de agosto de 2003 até o momento (R\$1000,00 por mês)
+* *Grant* de pesquisa associado à bolsa de produtividade em pesquisa do CNPq, nível 1D, de agosto de 2003 até fevereiro de 2022 (R\$1000,00 por mês)
+
+* Visita científica para participar, como *Senior Fellow*, de programa temático de três meses no [IPAM/UCLA](http://www.ipam.ucla.edu), sobre [Mathematics of Turbulence](http://www.ipam.ucla.edu/programs/long-programs/mathematics-of-turbulence/), de 8 de setembro a 12 de dezembro de 2014
 
 * Visita científica à Université de Paris-Sud, Orsay, França - Cooperação França-Brasil, CNRS-CNPq, 18 de março a 17 de maio de 2002
 
