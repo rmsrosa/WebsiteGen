@@ -1,5 +1,13 @@
 {{ if pt_lang }}
 
+#### ⟩⟩⟩ **Equações Diferenciais 2022/2**
+
+Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2022/2](/pages/ensino/#20222_equações_diferenciais).
+
+#### ⟩⟩⟩ **Álgebra Linear 2022/2**
+
+Veja aqui [informações sobre a disciplina de Álgebra Linear, período 2022/2](/pages/ensino/#20222_álgebra_linear).
+
 #### ⟩⟩⟩ Publicado artigo sobre estimativas ótimas em volume especial homenageando Ciprian Foias
 
 Meu artigo mais recente ([*"Optimal minimax bounds for time and ensemble averages for the incompressible Navier-Stokes equations"*](http://yokohamapublishers.jp/online2/oppafa/vol7/p327.html)), de co-autoria com [Roger Temam](https://math.indiana.edu/about/faculty/temam-roger.html), foi publicado na revista [Pure and Applied Functional Analysis](http://yokohamapublishers.jp/pafa.html), em um [volume especial](http://www.yokohamapublishers.jp/online2/pafav7n1.html) em homenagem póstuma a [Ciprian Foias](https://www.richardsonfuneralhome.org/obituary/Ciprian-Foias).
@@ -16,25 +24,9 @@ Veja aqui [informações sobre essa disciplina, período 2022/1](/pages/ensino/#
 
 Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2022/1](/pages/ensino/#20221_modelagem_matemática).
 
-#### ⟩⟩⟩ **Cálculo Infinitesimal II 2021/2**
-
-Veja aqui [informações sobre a disciplina de Cálculo Infinitesimal II, período 2021/2](/pages/ensino/#20212_cálculo_infinitesimal_ii).
-
-#### ⟩⟩⟩ **Equações Diferenciais 2021/1**
-
-Veja aqui [informações sobre a disciplina de Equações Diferenciais, período 2021/1](/pages/ensino/#20211_equações_diferenciais).
-
-#### ⟩⟩⟩ **Modelagem Matemática 2021/1**
-
-Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2021/1](/pages/ensino/#20211_modelagem_matemática).
-
 #### ⟩⟩⟩ Pacote **[UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl)**
 
 [UnitfulBuckinghamPi.jl](https://github.com/rmsrosa/UnitfulBuckinghamPi.jl) é o meu primeiro pacote [Julia](https://www.julialang.org) registrado! O seu objetivo é extrair os grupos adimensionais de uma lista de parâmetros. Os parâmetros devem ser definidos como quantidades, unidades ou dimensões do pacote [Unitful.jl](https://github.com/PainterQubits/Unitful.jl). Veja mais informações no blog, artigo [Buckingham-Pi Theorem and the UnitfulBuckinghamPi.jl package](/blog/2021/05/unitfulbuckinghampi/).
-
-#### ⟩⟩⟩ **Modelagem Matemática 2020/2**
-
-Veja aqui [informações sobre a disciplina de Modelagem Matemática, período 2020/2](/pages/ensino/#20202_modelagem_matemática).
 
 #### ⟩⟩⟩ **Novo artigo no blog**
 

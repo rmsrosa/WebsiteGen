@@ -7,6 +7,31 @@
 
 ## Graduação
 
+### 2022/2: Álgebra Linear
+
+* **Informações:**
+
+  * **Período letivo:** 29 de agosto a 14 de janeiro.
+  * **Local:** F₂-030 e Google Classroom.
+  * **Disciplina:** MAE125 - Álgebra Linear II
+  * **Turma:** 10821 - POLI/BCMT/IGA (Unificado) - Ter/Qui 8h às 10h
+  * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 30 de agosto, na F₂-022.
+  * **Notas de aula:** [Livro Curso de Álgebra Linear - 3a. Edição - 2021 - Paulo Goldfeld e Marco A. P. Cabral](https://sites.google.com/matematica.ufrj.br/mapcabral/livros-e-videos/curso-de-álgebra-linear?authuser=0#h.a6uqsuthr6cj)
+  * **Avaliação:** Listas pelo Google Classroom e provas presenciais.
+
+### 2022/2: Equações Diferenciais
+
+* **Informações:**
+
+  * **Período letivo:** 29 de agosto a 14 de janeiro.
+  * **Local:** F₂-022 e Google Classroom.
+  * **Disciplina:** MAE127 - Equações Diferenciais
+  * **Turma:** 8308 - Ter/Qui - 10h às 12h
+  * **Acesso ao Google Classroom:** Todos os alunos devem preencher o [Formulário inicial de ED 2022/2](https://docs.google.com/forms/d/e/1FAIpQLSchoq6brYIKLuls5Kq0bTeNI1-weX2wX_lHrNQPDoks1e2Ggw/viewform) para terem acesso à página da disciplina no Google Classroom.
+  * **Primeira aula:** O nosso primeiro encontro será na terça-feira, dia 30 de agosto, na F₂-022.
+  * **Notas de aula:** [Equações Diferenciais versão ago/2022](/assets/material/apostila-ed-agosto2022.pdf)
+  * **Avaliação:** Testes regulares assíncronos pelo Google Classroom (semanais ou quinzenais) e provas presenciais.
+
 ### 2022/1: Aspectos teóricos e numéricos de equações diferenciais estocásticas e aleatórias
 
 * **Informações:**

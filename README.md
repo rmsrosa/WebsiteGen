@@ -48,7 +48,7 @@ git push -u origin main
 # git push --set-upstream origin main
 ```
 
-After that, whenever you want to update the site with changes, just do
+After that, whenever you want to update the site with changes, just go to folder `website/__site/` and do
 
 ```zsh
 git add -A
