@@ -6,7 +6,7 @@
 @def pt_lang = false
 @def rss_pubdate = Date(2021, 5, 2)
 @def rss = "Buckingham-Pi Theorem and a julia package"
-@def rss_description = """We discuss the Buckingham-Pi Theorem and the implementation of the julia package UnitfulBuckinghamPi.jl"."""
+@def rss_description = """We discuss the Buckingham-Pi Theorem and the implementation of the julia package UnitfulBuckinghamPi.jl."""
 @def hascode = true
 @def hasmath = true
 
